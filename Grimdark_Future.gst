@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="d755-5d69-2721-c11b" name="Grimdark Future" book="Grimdark Future v1.0" revision="1" battleScribeVersion="2.00" authorName="Matthew Caron" authorContact="matt@mattcaron.net" authorUrl="https://www.mattcaron.net" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="d755-5d69-2721-c11b" name="Grimdark Future" book="Grimdark Future v1.1" revision="2" battleScribeVersion="2.00" authorName="Matthew Caron" authorContact="matt@mattcaron.net" authorUrl="https://www.mattcaron.net" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -230,7 +230,7 @@
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>When rolling to wound add +X to the roll.</description>
+      <description>When rolling to wound with this weapon, the target gets Defense -X.</description>
     </rule>
     <rule id="187f-6414-7037-a542" name="Blast(X)" hidden="false">
       <profiles/>
@@ -286,7 +286,7 @@
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>This model gets +1 attack in melee when using Charge actions.</description>
+      <description>This model takes one Quality test when Charging, if successful it deals 1 automatic hit.</description>
     </rule>
     <rule id="0c08-1729-0be7-c286" name="Impact(X)" hidden="false">
       <profiles/>
@@ -363,7 +363,7 @@
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Models firing this weapon always hit on 2+ and ignores cover. The attacker may pick which model from the target unit is hit.</description>
+      <description>Models firing this weapon count as having Quality 2+ and ignore cover. The attacker may pick which model from the target unit is hit.</description>
     </rule>
     <rule id="1b59-5d31-4675-c926" name="Stealth" hidden="false">
       <profiles/>
