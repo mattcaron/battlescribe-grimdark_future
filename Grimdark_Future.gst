@@ -27,6 +27,11 @@
         <characteristicType id="7a54-240f-72ef-5022" name="Special Rules"/>
       </characteristicTypes>
     </profileType>
+    <profileType id="a964-43c6-d8f5-e47f" name="Equipment">
+      <characteristicTypes>
+        <characteristicType id="189e-687a-bec2-51ad" name="Special Rules"/>
+      </characteristicTypes>
+    </profileType>
   </profileTypes>
   <forceEntries>
     <forceEntry id="e1b6-6db4-e6e8-6188" name="Army" hidden="false">
