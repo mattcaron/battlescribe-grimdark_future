@@ -3845,7 +3845,7 @@
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="359f-6577-2140-2d6f" name="[C] Upgrade Psychic(1)" hidden="false" collective="false">
+    <selectionEntryGroup id="359f-6577-2140-2d6f" name="[C] Upgrade Psychic(1):" hidden="false" collective="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -4122,7 +4122,7 @@
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="b15b-92d3-7cf8-dff2" name="[L] Replace any Heavy Flamethrower" hidden="false" collective="false">
+    <selectionEntryGroup id="b15b-92d3-7cf8-dff2" name="[L] Replace any Heavy Flamethrower:" hidden="false" collective="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -4256,7 +4256,7 @@
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="8c0e-d736-ee1d-6daf" name="[G] Replace all Storm Rifles and Energy Fists" hidden="false" collective="false">
+    <selectionEntryGroup id="8c0e-d736-ee1d-6daf" name="[G] Replace all Storm Rifles and Energy Fists:" hidden="false" collective="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -4478,7 +4478,7 @@
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="4edb-3180-f48a-a471" name="[J] Replace any Linked Assault Rifle" hidden="false" collective="false">
+    <selectionEntryGroup id="4edb-3180-f48a-a471" name="[J] Replace any Linked Assault Rifle:" hidden="false" collective="false">
       <profiles/>
       <rules/>
       <infoLinks/>
