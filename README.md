@@ -28,7 +28,7 @@ repository. If not, then you can post it in the forums and someone
 will grab it and put it in the repo for you.
 
 Guidelines
-===============
+==========
 
 1. The "Book" entry should contain the name of the list you're
 implementing **including** the version (so we know what versions are
@@ -46,7 +46,27 @@ acceptable.
 
 1. All weapons choices should be part of a selection group called _*
 Weapons *_. This keeps weapons choices together, and at the top of the
-options window.
+options window. Exception: If the weapons are fixed, then there's no
+point to having a weapons group (like the Battle Brothers APC - you
+can never replace the default Storm Rifle, and upgrade list A is just
+additions, so there was no need for a Weapons group).
 
 1. Use the Battle Brothers roster as an example of how to organize
 things and do stuff.
+
+
+Known Bugs:
+===========
+
+Battle Brothers:
+----------------
+
+1. The Brother Bikers and Pathfinder Bikers are given access to
+upgrade list A, but exactly how is unclear. OPR has been contacted and
+promises a fix in a later release.
+
+Credits
+=======
+Matthew Caron
+
+
