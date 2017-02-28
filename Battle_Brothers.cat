@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7d55-0118-8a35-e60f" name="Battle Brothers" book="Grimdark Future - Battle Brothers v1.1" revision="2" battleScribeVersion="2.00" authorName="Matthew Caron" authorContact="matt@mattcaron.net" authorUrl="https://www.mattcaron.net" gameSystemId="d755-5d69-2721-c11b" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7d55-0118-8a35-e60f" name="Battle Brothers" book="Grimdark Future - Battle Brothers v1.1" revision="3" battleScribeVersion="2.00" authorName="Matthew Caron" authorContact="matt@mattcaron.net" authorUrl="https://www.mattcaron.net" gameSystemId="d755-5d69-2721-c11b" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -59,7 +59,57 @@
           <modifiers/>
           <constraints/>
           <selectionEntries/>
-          <selectionEntryGroups/>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="ab17-e070-ba24-74d2" name="[A] Replace one Assault Rifle (House Rule):" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4d37-9aa4-9bd0-ddec" type="lessThan"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="set" field="b0c4-8055-cfaf-dfae" value="1">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a920-904b-ec6d-cc28" type="greaterThan"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b0c4-8055-cfaf-dfae" type="max"/>
+              </constraints>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="ad61-7df7-37e7-884e" name="New EntryLink" hidden="false" targetId="92f3-607a-125b-508f" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </entryLink>
+                <entryLink id="bc29-4faa-e4b7-f43c" name="New EntryLink" hidden="false" targetId="c159-7fff-3b86-3b66" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </entryLink>
+                <entryLink id="67bf-d175-bf96-6cbc" name="New EntryLink" hidden="false" targetId="46f0-ee53-b4eb-5104" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
           <entryLinks>
             <entryLink id="bf6d-ee6b-c4e5-007d" name="New EntryLink" hidden="false" targetId="09e8-b81d-0c4c-51b5" type="selectionEntry">
               <profiles/>
@@ -80,6 +130,20 @@
                   </conditions>
                   <conditionGroups/>
                 </modifier>
+                <modifier type="decrement" field="ffa1-481d-f9c8-74e1" value="1">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ab17-e070-ba24-74d2" type="greaterThan"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="decrement" field="8ecb-7958-d127-d075" value="1">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ab17-e070-ba24-74d2" type="greaterThan"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
               </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ecb-7958-d127-d075" type="min"/>
@@ -91,7 +155,9 @@
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <constraints/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0eab-2048-32f6-78b7" type="max"/>
+              </constraints>
             </entryLink>
             <entryLink id="5760-155b-16ad-5fa2" name="New EntryLink" hidden="false" targetId="950b-f2af-af6d-757b" type="selectionEntryGroup">
               <profiles/>
@@ -2734,6 +2800,19 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="385.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="4d37-9aa4-9bd0-ddec" name="Allow House Rules" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="54e3-9baf-82cf-b6be" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
   </selectionEntries>
   <entryLinks/>
   <sharedSelectionEntries>
@@ -4999,7 +5078,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="da9e-076f-d855-4ae2" name="Linked Heavy Machinegun" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -5197,7 +5278,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="c1a4-5267-099d-51fd" name="Autocannon" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -5221,7 +5304,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="b5fc-8eaf-6330-5d5f" name="Spear Missile Launcher" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -5447,7 +5532,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="66d7-6ef0-d944-4532" name="2x Laser Cannons" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -5495,7 +5582,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="df5f-e950-548a-cc76" name="2x Assault Rifle Arrays" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -5517,7 +5606,9 @@
           </constraints>
         </entryLink>
       </entryLinks>
-      <costs/>
+      <costs>
+        <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="388c-d367-61e4-20d7" name="Linked Flamethrower" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -5541,7 +5632,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="3b8a-9763-1e51-9700" name="Linked Fusion Rifle" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -5577,7 +5670,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="02be-b745-b2c1-bd79" name="Drill" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -5601,7 +5696,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="084f-5784-5d1d-765a" name="2x Energy Claws" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -5631,7 +5728,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="7709-9dbb-6c07-70a6" name="Gravity Pistol" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -5655,7 +5754,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="f404-4c0d-ae50-e01d" name="Energy Sword" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -5679,7 +5780,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="1991-edff-b5f5-ddeb" name="Linked Plasma Rifle" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -5709,7 +5812,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="6bff-835d-f71a-80b9" name="Plasma Pistol" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -5733,7 +5838,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="d510-74d8-5a04-e542" name="Linked Heavy Machinegun" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -5763,7 +5870,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="b18a-e762-b01b-1c2f" name="2x Laser Cannons" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -5811,7 +5920,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="0452-4feb-54f2-dfaa" name="2x Flamethrower Cannons" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -5987,7 +6098,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="5e43-9248-b8ba-bd6b" name="Heavy Flamethrower" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -6171,7 +6284,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="c66b-5597-fd7c-447e" name="Fusion Rifle" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -6647,7 +6762,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="04ca-86af-71dc-f999" name="Hammer Missiles" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -6747,7 +6864,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="0251-936c-9cef-e890" name="Storm Cannon" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -6809,7 +6928,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="6985-bea8-f682-a48a" name="Linked Laser Cannon" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -6949,6 +7070,108 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="60.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="92f3-607a-125b-508f" name="Storm Rifle and CCW" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="cd51-e972-cec9-920c" name="New EntryLink" hidden="false" targetId="d3c4-e67c-0f09-f795" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="568c-7b18-71be-24b8" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb2a-201f-307f-a36b" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="44e4-5ed8-1fd3-abfb" name="New EntryLink" hidden="false" targetId="e6b4-f15e-c52b-5dd6" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f57f-3c21-e123-6485" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a56-073b-3796-0af0" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="46f0-ee53-b4eb-5104" name="Storm Rifle and Energy Sword" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="59e0-1385-5dcc-0ec4" name="New EntryLink" hidden="false" targetId="e6b4-f15e-c52b-5dd6" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6db4-e902-f21e-1558" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="15d3-e584-9714-1715" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="3521-6fe9-ff91-084d" name="New EntryLink" hidden="false" targetId="f404-4c0d-ae50-e01d" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be39-c363-86c6-10a9" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9bfb-5313-26b2-6d49" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="15.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c159-7fff-3b86-3b66" name="Storm Rifle and Energy Fist" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="d8f4-2623-196b-7de0" name="New EntryLink" hidden="false" targetId="e6b4-f15e-c52b-5dd6" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="305f-dcf8-4852-aeae" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f6e-9545-2903-e1f1" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="1c63-a8ea-552d-d5dc" name="New EntryLink" hidden="false" targetId="cbcd-b571-b33a-17cb" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6cf4-8eb1-03af-0a67" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d3ae-1df9-f0c2-bb78" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="20.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="cc4f-c554-2303-87f8" name="[A] Replace one Assault Rifle:" hidden="false" collective="false">
@@ -6963,13 +7186,6 @@
       <selectionEntryGroups/>
       <entryLinks>
         <entryLink id="5014-8401-a1fb-a7c8" name="New EntryLink" hidden="false" targetId="2a72-32f5-f89d-2fb1" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </entryLink>
-        <entryLink id="73af-978e-fd38-3570" name="New EntryLink" hidden="false" targetId="c818-274f-5740-fae0" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -7026,6 +7242,13 @@
           <constraints/>
         </entryLink>
         <entryLink id="4146-94cc-b46d-308e" name="New EntryLink" hidden="false" targetId="bb22-ef2b-c7b7-20f2" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="6982-1b73-9710-a875" name="New EntryLink" hidden="false" targetId="c818-274f-5740-fae0" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
