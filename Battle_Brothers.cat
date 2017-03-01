@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7d55-0118-8a35-e60f" name="Battle Brothers" book="Grimdark Future - Battle Brothers v1.1" revision="5" battleScribeVersion="2.00" authorName="Matthew Caron" authorContact="matt@mattcaron.net" authorUrl="https://www.mattcaron.net" gameSystemId="d755-5d69-2721-c11b" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7d55-0118-8a35-e60f" name="Battle Brothers" book="Grimdark Future - Battle Brothers v1.1" revision="6" battleScribeVersion="2.00" authorName="Matthew Caron" authorContact="matt@mattcaron.net" authorUrl="https://www.mattcaron.net" gameSystemId="d755-5d69-2721-c11b" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -6085,7 +6085,7 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b18a-e762-b01b-1c2f" name="2x Laser Cannons" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="b18a-e762-b01b-1c2f" name="2x Linked Laser Cannons" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -6094,7 +6094,7 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="403f-f591-fb55-3d06" name="New EntryLink" hidden="false" targetId="5f8b-76fc-03ea-91bb" type="selectionEntry">
+        <entryLink id="403f-f591-fb55-3d06" name="New EntryLink" hidden="false" targetId="5bd7-f90b-3635-d0cf" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -7381,6 +7381,44 @@
       </entryLinks>
       <costs>
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="20.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5bd7-f90b-3635-d0cf" name="Linked Laser Cannon" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="e13a-c585-30a8-87ea" name="New InfoLink" hidden="false" targetId="641c-0861-aaa6-f8e9" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="fe4b-3b3c-9b82-e29f" name="New InfoLink" hidden="false" targetId="377b-3864-960e-57ac" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="0fe4-a25d-76d7-c380" name="New InfoLink" hidden="false" targetId="f84f-fda5-e478-455d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="47d5-5bbb-37ed-9709" name="New InfoLink" hidden="false" targetId="da86-0ac5-bc90-1525" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
