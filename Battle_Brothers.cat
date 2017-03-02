@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7d55-0118-8a35-e60f" name="Battle Brothers" book="Grimdark Future - Battle Brothers v1.1" revision="8" battleScribeVersion="2.00" authorName="Matthew Caron" authorContact="matt@mattcaron.net" authorUrl="https://www.mattcaron.net" gameSystemId="d755-5d69-2721-c11b" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7d55-0118-8a35-e60f" name="Battle Brothers" book="Grimdark Future - Battle Brothers v1.1" revision="9" battleScribeVersion="2.00" authorName="Matthew Caron" authorContact="matt@mattcaron.net" authorUrl="https://www.mattcaron.net" gameSystemId="d755-5d69-2721-c11b" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -7449,6 +7449,26 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="58e0-ec40-d3b7-3590" name="Psychic(2)" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="bf39-c8d5-c814-a05e" name="New InfoLink" hidden="false" targetId="7308-0787-4332-ec66" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="15.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="cc4f-c554-2303-87f8" name="[A] Replace one Assault Rifle:" hidden="false" collective="false">
@@ -7580,27 +7600,20 @@
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <constraints/>
-      <selectionEntries>
-        <selectionEntry id="c685-4775-d63c-d8a8" name="Psychic(2)" hidden="false" collective="false" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1c97-eb69-7649-bd71" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="70c1-71ae-4bc9-ce6d" name="New EntryLink" hidden="false" targetId="58e0-ec40-d3b7-3590" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d40c-3dc5-57d0-c375" type="max"/>
-            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="23b6-5d70-b44d-f3e0" type="min"/>
-          </constraints>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="15.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups/>
-      <entryLinks/>
+          <constraints/>
+        </entryLink>
+      </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="c892-a1bc-7874-8061" name="[D] Upgrade all models with:" hidden="false" collective="false">
       <profiles/>
@@ -9644,6 +9657,15 @@
         <characteristic name="Range" characteristicTypeId="79f4-5578-c041-f866" value="24&quot;"/>
         <characteristic name="Attacks" characteristicTypeId="4633-0aa3-94f7-3be7" value="A1"/>
         <characteristic name="Special Rules" characteristicTypeId="9fb1-424b-834c-5e7d" value="AP(7), Deadly, Linked"/>
+      </characteristics>
+    </profile>
+    <profile id="7308-0787-4332-ec66" name="Psychic(2)" hidden="false" profileTypeId="a964-43c6-d8f5-e47f" profileTypeName="Equipment">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Special Rules" characteristicTypeId="189e-687a-bec2-51ad" value="Psychic(2)"/>
       </characteristics>
     </profile>
   </sharedProfiles>
