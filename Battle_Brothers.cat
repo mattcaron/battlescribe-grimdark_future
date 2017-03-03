@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7d55-0118-8a35-e60f" name="Battle Brothers" book="Grimdark Future - Battle Brothers v1.1" revision="11" battleScribeVersion="2.00" authorName="Matthew Caron" authorContact="matt@mattcaron.net" authorUrl="https://www.mattcaron.net" gameSystemId="d755-5d69-2721-c11b" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7d55-0118-8a35-e60f" name="Battle Brothers" book="Grimdark Future - Battle Brothers v1.1" revision="12" battleScribeVersion="2.00" authorName="Matthew Caron" authorContact="matt@mattcaron.net" authorUrl="https://www.mattcaron.net" gameSystemId="d755-5d69-2721-c11b" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -7469,6 +7469,32 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="15.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="000b-7779-adfb-84c2" name="Pistol and CCW" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="f7a2-1e86-34a9-e688" name="New InfoLink" hidden="false" targetId="bac6-4ffc-a7e5-6d13" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="5e0d-d027-a71f-e4d4" name="New InfoLink" hidden="false" targetId="2231-24dc-0320-52f7" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="cc4f-c554-2303-87f8" name="[A] Replace one Assault Rifle:" hidden="false" collective="false">
@@ -7949,7 +7975,7 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="250f-a1cf-8b37-e1b9" name="New EntryLink" hidden="false" targetId="2a72-32f5-f89d-2fb1" type="selectionEntry">
+        <entryLink id="250f-a1cf-8b37-e1b9" name="New EntryLink" hidden="false" targetId="000b-7779-adfb-84c2" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
