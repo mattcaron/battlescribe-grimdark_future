@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ff43-00f9-597f-10f3" name="Havoc Brothers" book="Grimdark Future – Havoc Brothers v1.1" revision="4" battleScribeVersion="2.00" authorName="Matthew Caron" authorContact="matt@mattcaron.net" authorUrl="https://www.mattcaron.net" gameSystemId="d755-5d69-2721-c11b" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ff43-00f9-597f-10f3" name="Havoc Brothers" book="Grimdark Future – Havoc Brothers v1.3" revision="6" battleScribeVersion="2.00" authorName="Matthew Caron" authorContact="matt@mattcaron.net" authorUrl="https://www.mattcaron.net" gameSystemId="d755-5d69-2721-c11b" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -252,7 +252,7 @@
           <characteristics>
             <characteristic name="Quality" characteristicTypeId="c619-fc26-5d0b-187d" value="3+"/>
             <characteristic name="Defense" characteristicTypeId="5564-b1cb-27d0-1af7" value="6+"/>
-            <characteristic name="Special Rules" characteristicTypeId="6039-8041-2416-3f32" value=""/>
+            <characteristic name="Special Rules" characteristicTypeId="6039-8041-2416-3f32" value="Fearless, Hero, Psychic(1), Tough(3)"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1072,7 +1072,7 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks>
-            <entryLink id="1287-5fcc-3ef7-6aad" name="New EntryLink" hidden="false" targetId="422f-2ee4-f4c3-abbe" type="selectionEntry">
+            <entryLink id="1287-5fcc-3ef7-6aad" name="New EntryLink" hidden="false" targetId="aadf-5b66-650e-f09f" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -1626,7 +1626,7 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks>
-            <entryLink id="0a44-0696-3be7-3040" name="New EntryLink" hidden="false" targetId="8106-723f-982c-bf1e" type="selectionEntry">
+            <entryLink id="0a44-0696-3be7-3040" name="New EntryLink" hidden="false" targetId="d9c0-b363-ea57-d2ad" type="selectionEntry">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -1647,11 +1647,18 @@
                 </modifier>
               </modifiers>
               <constraints>
-                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f977-3ae1-269f-95b9" type="min"/>
-                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d533-0f88-09ad-86d6" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f977-3ae1-269f-95b9" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d533-0f88-09ad-86d6" type="max"/>
               </constraints>
             </entryLink>
             <entryLink id="f783-50b3-b386-4905" name="New EntryLink" hidden="false" targetId="8394-4105-1b70-f511" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="037b-49bb-5f51-dd8a" name="New EntryLink" hidden="false" targetId="9463-cfed-3cac-d0f0" type="selectionEntryGroup">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -1663,7 +1670,7 @@
       </selectionEntryGroups>
       <entryLinks/>
       <costs>
-        <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="220.0"/>
+        <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="180.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3341-b232-f091-d584" name="Havoc Bikers [3]" hidden="false" collective="false" categoryEntryId="151d-502b-1a39-0176" type="unit">
@@ -1807,7 +1814,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="0.0"/>
+        <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="40.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1d3d-d34c-9db1-d1f4" name="Havoc APC [1]" hidden="false" collective="false" categoryEntryId="2f40-c39a-80bf-b422" type="model">
@@ -2244,7 +2251,7 @@
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="cd86-ddab-8a71-5e07" name="New InfoLink" hidden="false" targetId="7e72-ec0e-c18e-0158" type="profile">
+        <infoLink id="cd86-ddab-8a71-5e07" name="New InfoLink" hidden="false" targetId="1096-c75e-57d5-1d4b" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2996,7 +3003,7 @@
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="dc38-a2d1-6cab-132b" name="New InfoLink" hidden="false" targetId="7e72-ec0e-c18e-0158" type="profile">
+        <infoLink id="dc38-a2d1-6cab-132b" name="New InfoLink" hidden="false" targetId="1096-c75e-57d5-1d4b" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4183,7 +4190,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="10.0"/>
+        <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="50.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="97e6-f08f-464b-edb5" name="3x Linked Flamethrowers" hidden="false" collective="false" type="upgrade">
@@ -4203,7 +4210,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="15.0"/>
+        <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="90.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f2d4-60a1-449b-0dcc" name="3x Heavy Flamethrowers" hidden="false" collective="false" type="upgrade">
@@ -4229,7 +4236,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="35.0"/>
+        <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="110.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fdff-81c5-cf7b-f18f" name="Heavy Flamethrower" hidden="false" collective="false" type="upgrade">
@@ -4258,7 +4265,7 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="01cc-a6ad-3df5-3985" name="2x Energy Claws" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="01cc-a6ad-3df5-3985" name="3x 2x Energy Claws" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -4287,7 +4294,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="45.0"/>
+        <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="85.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e4a7-d980-b36b-47fb" name="3x Linked Fusion Rifles" hidden="false" collective="false" type="upgrade">
@@ -4325,7 +4332,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="60.0"/>
+        <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="145.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="af54-486c-af55-b97e" name="3x Heavy Fusion Rifles" hidden="false" collective="false" type="upgrade">
@@ -4357,7 +4364,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="140.0"/>
+        <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="215.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3601-85e6-2bcf-9399" name="3x Miniguns" hidden="false" collective="false" type="upgrade">
@@ -4389,7 +4396,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="155.0"/>
+        <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="230.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fc64-c7dc-4b47-8ca4" name="3x Plasma Cannons" hidden="false" collective="false" type="upgrade">
@@ -4421,7 +4428,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="195.0"/>
+        <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="270.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2908-fd92-4bfe-03d9" name="3x Laser Cannons" hidden="false" collective="false" type="upgrade">
@@ -4453,7 +4460,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="260.0"/>
+        <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="335.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="69f3-3333-f025-8682" name="Plasma Rifle" hidden="false" collective="false" type="upgrade">
@@ -4680,7 +4687,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="a5ea-4de8-46e0-6656" name="Linked Laser Cannon" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -4826,7 +4835,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="9623-38a0-2f2c-11a0" name="2x Laser Cannons" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -4856,7 +4867,79 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d9c0-b363-ea57-d2ad" name="3x 2x CCWs" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="5058-5a82-bf67-3e51" name="New InfoLink" hidden="false" targetId="561e-da47-77d0-7dcf" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
       <costs/>
+    </selectionEntry>
+    <selectionEntry id="2630-bb12-eba9-111c" name="3x 2x Energy Fists" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="ac1d-e3e0-f023-2896" name="New InfoLink" hidden="false" targetId="f84f-fda5-e478-455d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="fbbe-0a7f-dc74-a70c" name="New InfoLink" hidden="false" targetId="1e37-a215-f2b2-b506" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="95.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="15de-6e27-050d-98a2" name="3x Linked Plasma Rifles" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="ce2f-3019-d07e-1eff" name="New InfoLink" hidden="false" targetId="e907-301a-ce78-0ebb" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="77cf-7918-3e61-f6fe" name="New InfoLink" hidden="false" targetId="f84f-fda5-e478-455d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="75.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -5462,9 +5545,7 @@
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="78f2-9ad8-498d-37ac" type="max"/>
-      </constraints>
+      <constraints/>
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
@@ -5473,7 +5554,9 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fbbe-129a-6255-3bc1" type="max"/>
+          </constraints>
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
@@ -5809,7 +5892,7 @@
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="8394-4105-1b70-f511" name="[M] Replace all Linked Plasma Rifles:" hidden="false" collective="false">
+    <selectionEntryGroup id="8394-4105-1b70-f511" name="[M] Replace all 2x CCWs:" hidden="false" collective="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -5827,13 +5910,6 @@
           <modifiers/>
           <constraints/>
         </entryLink>
-        <entryLink id="af49-ca48-6310-7f74" name="New EntryLink" hidden="false" targetId="97e6-f08f-464b-edb5" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </entryLink>
         <entryLink id="63d5-30ab-286f-7247" name="New EntryLink" hidden="false" targetId="01cc-a6ad-3df5-3985" type="selectionEntry">
           <profiles/>
           <rules/>
@@ -5841,42 +5917,7 @@
           <modifiers/>
           <constraints/>
         </entryLink>
-        <entryLink id="132e-4f7b-cc27-efa0" name="New EntryLink" hidden="false" targetId="f2d4-60a1-449b-0dcc" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </entryLink>
-        <entryLink id="fe4c-495b-22af-02fe" name="New EntryLink" hidden="false" targetId="e4a7-d980-b36b-47fb" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </entryLink>
-        <entryLink id="40b6-6873-7430-207f" name="New EntryLink" hidden="false" targetId="af54-486c-af55-b97e" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </entryLink>
-        <entryLink id="88d5-b56a-7770-6b2f" name="New EntryLink" hidden="false" targetId="3601-85e6-2bcf-9399" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </entryLink>
-        <entryLink id="1688-c72d-a720-82ef" name="New EntryLink" hidden="false" targetId="fc64-c7dc-4b47-8ca4" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </entryLink>
-        <entryLink id="a50c-a5d6-21bb-8501" name="New EntryLink" hidden="false" targetId="2908-fd92-4bfe-03d9" type="selectionEntry">
+        <entryLink id="e111-0397-43f1-c6b7" name="New EntryLink" hidden="false" targetId="2630-bb12-eba9-111c" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6098,6 +6139,75 @@
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
+    <selectionEntryGroup id="9463-cfed-3cac-d0f0" name="[M] Upgrade all models with:" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ccaa-c4bd-77b8-3f6e" type="max"/>
+      </constraints>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="3b36-3515-aa60-d83f" name="New EntryLink" hidden="false" targetId="15de-6e27-050d-98a2" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="058e-153a-6c7b-e1e4" name="New EntryLink" hidden="false" targetId="f2d4-60a1-449b-0dcc" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="080f-a8e4-d226-c230" name="New EntryLink" hidden="false" targetId="e4a7-d980-b36b-47fb" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="e2df-ffa5-d124-b0f0" name="New EntryLink" hidden="false" targetId="af54-486c-af55-b97e" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="02da-b8ee-eb7d-aec5" name="New EntryLink" hidden="false" targetId="3601-85e6-2bcf-9399" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="d145-6e61-df3f-0253" name="New EntryLink" hidden="false" targetId="97e6-f08f-464b-edb5" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="f077-7223-6196-3509" name="New EntryLink" hidden="false" targetId="2908-fd92-4bfe-03d9" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="2559-7a5d-ca9f-1c24" name="New EntryLink" hidden="false" targetId="fc64-c7dc-4b47-8ca4" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="aabf-dc29-eca3-d58b" name="Chant" hidden="false">
@@ -6106,13 +6216,6 @@
       <infoLinks/>
       <modifiers/>
       <description>The hero and his unit get Furious.</description>
-    </rule>
-    <rule id="7ffb-104c-f261-12d0" name="Repair" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <description>Repair: Once per turn, if this unit is inside or within 2” of a Vehicle, then it may try to repair it. Roll one die, on a 4+ the vehicle heals one wound.</description>
     </rule>
     <rule id="a0ad-4b99-3f9a-b22e" name="Extra move" hidden="false">
       <profiles/>
