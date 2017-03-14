@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5f8d-c465-95f1-50e1" name="Orc Marauders" revision="2" battleScribeVersion="2.00" authorName="Robert S. Roosa" authorUrl="http://www.thegametable.altervista.org/" gameSystemId="d755-5d69-2721-c11b" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="5f8d-c465-95f1-50e1" name="Orc Marauders" revision="3" battleScribeVersion="2.00" authorName="Robert S. Roosa" authorUrl="http://www.thegametable.altervista.org/" gameSystemId="d755-5d69-2721-c11b" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -166,7 +166,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="65.0"/>
+        <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="70.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a4d7-d1d0-745e-34e1" name="Doctor [1]" hidden="false" collective="false" categoryEntryId="fd3a-2c8a-2e7d-9b0e" type="model">
@@ -241,7 +241,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="40.0"/>
+        <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="90.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1c92-457b-6c6c-8a35" name="Mechanic [1]" hidden="false" collective="false" categoryEntryId="fd3a-2c8a-2e7d-9b0e" type="model">
@@ -496,7 +496,7 @@
           <modifiers/>
           <constraints/>
         </entryLink>
-        <entryLink id="307b-6b9f-d826-fef8" name="New EntryLink" hidden="false" targetId="5012-fb0f-1dd8-a301" type="selectionEntry">
+        <entryLink id="307b-6b9f-d826-fef8" name="New EntryLink" hidden="false" targetId="eea8-ddc7-d495-d00a" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -4456,7 +4456,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="df2e-1c89-01a5-393e" name="Linked Heavy Machinegun" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -4486,7 +4488,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="b836-76f3-dfd5-631c" name="Mega Fist" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -4510,7 +4514,35 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="eea8-ddc7-d495-d00a" name="Energy Sword" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="5320-8c66-fc12-2dcf" name="New InfoLink" hidden="false" targetId="06a5-ebfa-cd42-ce0b" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="4746-af2d-db5e-9e24" name="New InfoLink" hidden="false" targetId="f84f-fda5-e478-455d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
