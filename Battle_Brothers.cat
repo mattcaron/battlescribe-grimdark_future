@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7d55-0118-8a35-e60f" name="Battle Brothers" book="Grimdark Future - Battle Brothers v1.1" revision="15" battleScribeVersion="2.00" authorName="Matthew Caron" authorContact="matt@mattcaron.net" authorUrl="https://www.mattcaron.net" gameSystemId="d755-5d69-2721-c11b" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7d55-0118-8a35-e60f" name="Battle Brothers" book="Grimdark Future - Battle Brothers v1.1" revision="16" battleScribeVersion="2.00" authorName="Matthew Caron" authorContact="matt@mattcaron.net" authorUrl="https://www.mattcaron.net" gameSystemId="d755-5d69-2721-c11b" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -3545,7 +3545,7 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="20.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3764-695f-eed9-205e" name="Gravity Rifle (Limited)" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="3764-695f-eed9-205e" name="Gravity Rifle (Assault Rifle Attachment, Limited)" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -3561,7 +3561,7 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="3d98-cdaa-30c9-3418" name="New InfoLink" hidden="false" targetId="903b-659e-01ae-d425" type="profile">
+        <infoLink id="3d98-cdaa-30c9-3418" name="New InfoLink" hidden="false" targetId="1d54-258b-d15a-10eb" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3577,7 +3577,7 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="5.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d369-e708-c0e3-b4f8" name="Plasma Rifle (Limited)" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="d369-e708-c0e3-b4f8" name="Plasma Rifle (Assault Rifle Attachment, Limited)" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -3593,7 +3593,7 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="ddb7-37a8-2c96-5f36" name="New InfoLink" hidden="false" targetId="acd1-3f58-a0ca-b4a3" type="profile">
+        <infoLink id="ddb7-37a8-2c96-5f36" name="New InfoLink" hidden="false" targetId="937e-50c6-5147-ea42" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3609,7 +3609,7 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="5.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="755e-4add-b6cf-0899" name="Flamethrower (Limited)" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="755e-4add-b6cf-0899" name="Flamethrower (Assault Rifle Attachment, Limited)" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -3619,7 +3619,7 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="d144-4c7e-7d1d-211a" name="New InfoLink" hidden="false" targetId="70f6-e8fc-9170-095b" type="profile">
+        <infoLink id="d144-4c7e-7d1d-211a" name="New InfoLink" hidden="false" targetId="cce1-4cbb-ce1e-ae02" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3635,7 +3635,7 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="5.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1209-2263-1c8f-0f22" name="Fusion Rifle (Limited)" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="1209-2263-1c8f-0f22" name="Fusion Rifle (Assault Rifle Attachment, Limited)" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -3657,7 +3657,7 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="f872-8c3a-c5d7-c88d" name="New InfoLink" hidden="false" targetId="b8be-7710-c35a-5c54" type="profile">
+        <infoLink id="f872-8c3a-c5d7-c88d" name="New InfoLink" hidden="false" targetId="52af-5ebf-3bcd-e85e" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -9692,6 +9692,50 @@
       <modifiers/>
       <characteristics>
         <characteristic name="Special Rules" characteristicTypeId="189e-687a-bec2-51ad" value="Psychic(2)"/>
+      </characteristics>
+    </profile>
+    <profile id="cce1-4cbb-ce1e-ae02" name="Flamethrower (Assault Rifle Attachment, Limited)" hidden="false" profileTypeId="3c71-da94-e5b3-d7c8" profileTypeName="Ranged Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="79f4-5578-c041-f866" value="12&quot;"/>
+        <characteristic name="Attacks" characteristicTypeId="4633-0aa3-94f7-3be7" value="A6"/>
+        <characteristic name="Special Rules" characteristicTypeId="9fb1-424b-834c-5e7d" value="Limited"/>
+      </characteristics>
+    </profile>
+    <profile id="52af-5ebf-3bcd-e85e" name="Fusion Rifle (Assault Rifle Attachment, Limited)" hidden="false" profileTypeId="3c71-da94-e5b3-d7c8" profileTypeName="Ranged Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="79f4-5578-c041-f866" value="12&quot;"/>
+        <characteristic name="Attacks" characteristicTypeId="4633-0aa3-94f7-3be7" value="A1"/>
+        <characteristic name="Special Rules" characteristicTypeId="9fb1-424b-834c-5e7d" value="Limited, AP(7), Deadly"/>
+      </characteristics>
+    </profile>
+    <profile id="1d54-258b-d15a-10eb" name="Gravity Rifle (Assault Rifle Attachment, Limited)" hidden="false" profileTypeId="3c71-da94-e5b3-d7c8" profileTypeName="Ranged Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="79f4-5578-c041-f866" value="18&quot;"/>
+        <characteristic name="Attacks" characteristicTypeId="4633-0aa3-94f7-3be7" value="A1"/>
+        <characteristic name="Special Rules" characteristicTypeId="9fb1-424b-834c-5e7d" value="Limited, AP(D3+1)"/>
+      </characteristics>
+    </profile>
+    <profile id="937e-50c6-5147-ea42" name="Plasma Rifle (Assault Rifle Attachment, Limited)" hidden="false" profileTypeId="3c71-da94-e5b3-d7c8" profileTypeName="Ranged Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="79f4-5578-c041-f866" value="24&quot;"/>
+        <characteristic name="Attacks" characteristicTypeId="4633-0aa3-94f7-3be7" value="A1"/>
+        <characteristic name="Special Rules" characteristicTypeId="9fb1-424b-834c-5e7d" value="Limited, AP(3)"/>
       </characteristics>
     </profile>
   </sharedProfiles>
