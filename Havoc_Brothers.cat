@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ff43-00f9-597f-10f3" name="Havoc Brothers" book="Grimdark Future – Havoc Brothers v1.3" revision="7" battleScribeVersion="2.00" authorName="Matthew Caron" authorContact="matt@mattcaron.net" authorUrl="https://www.mattcaron.net" gameSystemId="d755-5d69-2721-c11b" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ff43-00f9-597f-10f3" name="Havoc Brothers" book="Grimdark Future – Havoc Brothers v1.3" revision="8" battleScribeVersion="2.00" authorName="Matthew Caron" authorContact="matt@mattcaron.net" authorUrl="https://www.mattcaron.net" gameSystemId="d755-5d69-2721-c11b" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -5412,7 +5412,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="9011-f922-0cb1-1a02" name="Energy Flail" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -5724,7 +5726,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="1299-7eab-02cf-6175" name="2x Maul Cutters" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -5748,7 +5752,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="f8e2-44b3-d388-f87b" name="2x Steel Tails" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -5862,7 +5868,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="a890-14b7-0b45-c755" name="Battle Cannon" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -5892,7 +5900,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="f90d-2249-d41c-912d" name="Linked Heavy Flamethrower" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -5916,7 +5926,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="87a0-5e21-8874-0c0b" name="Energy Flail" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -5946,7 +5958,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="be85-d21b-d834-7ae1" name="Havoc Missiles" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -6002,7 +6016,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="9802-7960-b5a6-b957" name="Forge Cannon" hidden="false" collective="false" type="upgrade">
       <profiles/>
