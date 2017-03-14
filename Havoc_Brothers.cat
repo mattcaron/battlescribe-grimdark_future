@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ff43-00f9-597f-10f3" name="Havoc Brothers" book="Grimdark Future – Havoc Brothers v1.3" revision="8" battleScribeVersion="2.00" authorName="Matthew Caron" authorContact="matt@mattcaron.net" authorUrl="https://www.mattcaron.net" gameSystemId="d755-5d69-2721-c11b" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ff43-00f9-597f-10f3" name="Havoc Brothers" book="Grimdark Future – Havoc Brothers v1.3" revision="9" battleScribeVersion="2.00" authorName="Matthew Caron" authorContact="matt@mattcaron.net" authorUrl="https://www.mattcaron.net" gameSystemId="d755-5d69-2721-c11b" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -2786,7 +2786,7 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1157-375d-c9e3-bcae" name="Pistol and CCW" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="1157-375d-c9e3-bcae" name="Pistol and CCW (A3)" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -2820,7 +2820,7 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="5.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="422f-2ee4-f4c3-abbe" name="CCW" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="422f-2ee4-f4c3-abbe" name="CCW (A3)" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -2840,7 +2840,7 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b64f-7ed2-674c-7bd7" name="Plasma Pistol and CCW" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="b64f-7ed2-674c-7bd7" name="Plasma Pistol and CCW (A3)" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -2874,7 +2874,7 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d0a0-d70d-0543-7b2a" name="Energy Sword" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="d0a0-d70d-0543-7b2a" name="Energy Sword (A3)" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -2900,7 +2900,7 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="05d1-253d-6070-b5b8" name="Energy Fist" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="05d1-253d-6070-b5b8" name="Energy Fist (A3)" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -2926,7 +2926,7 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e09f-63f9-a324-8e9c" name="Pistol and Energy Sword" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="e09f-63f9-a324-8e9c" name="Pistol and Energy Sword (A3)" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -2960,7 +2960,7 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="20.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6051-9b31-a1bf-7669" name="Pistol and Energy Fist" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="6051-9b31-a1bf-7669" name="Pistol and Energy Fist (A3)" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -2994,7 +2994,7 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="25.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d23f-0276-ae6c-82f6" name="Plasma Pistol and Energy Sword" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="d23f-0276-ae6c-82f6" name="Plasma Pistol and Energy Sword (A3)" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -3028,7 +3028,7 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="25.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="abfe-1066-08cd-4187" name="Plasma Pistol and Energy Fist" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="abfe-1066-08cd-4187" name="Plasma Pistol and Energy Fist (A3)" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -3472,7 +3472,7 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="25.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="910d-1f2d-7a73-9b38" name="Pistol and CCW" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="910d-1f2d-7a73-9b38" name="Pistol and CCW (A3)" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -3924,7 +3924,7 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7153-14c4-21c6-9bad" name="Energy Sword" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="7153-14c4-21c6-9bad" name="Energy Sword (A3)" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -3950,7 +3950,7 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="15.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ec4b-2d83-db9c-0736" name="Energy Fist" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="ec4b-2d83-db9c-0736" name="Energy Fist (A3)" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -4614,7 +4614,7 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4cbd-26a5-3b12-5bc9" name="3x 2x Energy Swords" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="4cbd-26a5-3b12-5bc9" name="3x 2x Energy Swords (A2)" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -5318,7 +5318,7 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d9c0-b363-ea57-d2ad" name="3x 2x CCWs" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="d9c0-b363-ea57-d2ad" name="3x 2x CCWs (A2)" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -5338,7 +5338,7 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2630-bb12-eba9-111c" name="3x 2x Energy Fists" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="2630-bb12-eba9-111c" name="3x 2x Energy Fists (A2)" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks>
@@ -7628,7 +7628,7 @@
         <characteristic name="Special Rules" characteristicTypeId="9fb1-424b-834c-5e7d" value=""/>
       </characteristics>
     </profile>
-    <profile id="2ecb-5788-d03f-fe15" name="CCW" hidden="false" profileTypeId="a876-7ff4-b28f-0999" profileTypeName="Melee Weapon">
+    <profile id="2ecb-5788-d03f-fe15" name="CCW (A3)" hidden="false" profileTypeId="a876-7ff4-b28f-0999" profileTypeName="Melee Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -7649,7 +7649,7 @@
         <characteristic name="Special Rules" characteristicTypeId="9fb1-424b-834c-5e7d" value="AP(3)"/>
       </characteristics>
     </profile>
-    <profile id="71ca-6ed3-171e-0e82" name="Energy Sword" hidden="false" profileTypeId="a876-7ff4-b28f-0999" profileTypeName="Melee Weapon">
+    <profile id="71ca-6ed3-171e-0e82" name="Energy Sword (A3)" hidden="false" profileTypeId="a876-7ff4-b28f-0999" profileTypeName="Melee Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -7659,7 +7659,7 @@
         <characteristic name="Special Rules" characteristicTypeId="7a54-240f-72ef-5022" value="AP(2)"/>
       </characteristics>
     </profile>
-    <profile id="b268-0045-ea85-742f" name="Energy Fist" hidden="false" profileTypeId="a876-7ff4-b28f-0999" profileTypeName="Melee Weapon">
+    <profile id="b268-0045-ea85-742f" name="Energy Fist (A3)" hidden="false" profileTypeId="a876-7ff4-b28f-0999" profileTypeName="Melee Weapon">
       <profiles/>
       <rules/>
       <infoLinks/>
