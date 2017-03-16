@@ -1410,6 +1410,28 @@
               <modifiers/>
               <constraints/>
             </entryLink>
+            <entryLink id="ee64-448e-87a8-e6c8" name="New EntryLink" hidden="false" targetId="56e9-be9a-68f4-d90f" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </entryLink>
+            <entryLink id="0a4a-7da7-e71e-ca5d" name="New EntryLink" hidden="false" targetId="950b-f2af-af6d-757b" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="3560-b6e1-2c82-e55a" value="0.0">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="978c-755b-96f0-e839" type="lessThan"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -9133,7 +9155,7 @@
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="56e9-be9a-68f4-d90f" name="[A, I] Upgrade one model with:" hidden="false" collective="false">
+    <selectionEntryGroup id="56e9-be9a-68f4-d90f" name="[A, I/J] Upgrade one model with:" hidden="false" collective="false">
       <profiles/>
       <rules/>
       <infoLinks/>
