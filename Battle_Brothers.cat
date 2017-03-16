@@ -2780,6 +2780,61 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="385.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="8b29-63a8-1b0b-81e3" name="Artillery Cannon [1]" hidden="false" collective="false" categoryEntryId="2f40-c39a-80bf-b422" type="model">
+      <profiles>
+        <profile id="2bc9-02ac-9822-86c6" name="Artillery Cannon" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Quality" characteristicTypeId="c619-fc26-5d0b-187d" value="3+"/>
+            <characteristic name="Defense" characteristicTypeId="5564-b1cb-27d0-1af7" value="9+"/>
+            <characteristic name="Special Rules" characteristicTypeId="6039-8041-2416-3f32" value="Slow, Tough(3), Vehicle"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="b371-34df-4353-48f1" name="New InfoLink" hidden="false" targetId="394b-1b64-d270-f49e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="1284-b0b9-02e3-325f" name="New InfoLink" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="0fb6-9e5e-767c-b16b" name="New InfoLink" hidden="false" targetId="89a2-a201-07fe-067e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="c4db-7e2a-a227-c84d" name="New EntryLink" hidden="false" targetId="d681-6bfc-ae57-22c3" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f2a2-95e3-1278-eeee" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b163-3717-9141-5d7f" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="305.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <entryLinks/>
   <sharedSelectionEntries>
@@ -7651,6 +7706,42 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="30.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="d681-6bfc-ae57-22c3" name="Cannon" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="c7ba-a198-8d5f-5b3a" name="New InfoLink" hidden="false" targetId="f84f-fda5-e478-455d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="33d0-8d88-e9b5-43a9" name="New InfoLink" hidden="false" targetId="187f-6414-7037-a542" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="c770-9f7e-a301-d342" name="New InfoLink" hidden="false" targetId="587a-b92c-a265-06c4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="794f-b5fb-0a23-9b6e" name="New InfoLink" hidden="false" targetId="b2b3-700c-8dc2-f589" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="cc4f-c554-2303-87f8" name="[A] Replace one Assault Rifle:" hidden="false" collective="false">
@@ -10044,6 +10135,17 @@
         <characteristic name="Range" characteristicTypeId="79f4-5578-c041-f866" value="24&quot;"/>
         <characteristic name="Attacks" characteristicTypeId="4633-0aa3-94f7-3be7" value="A1"/>
         <characteristic name="Special Rules" characteristicTypeId="9fb1-424b-834c-5e7d" value="Limited, AP(3)"/>
+      </characteristics>
+    </profile>
+    <profile id="b2b3-700c-8dc2-f589" name="Cannon" hidden="false" profileTypeId="3c71-da94-e5b3-d7c8" profileTypeName="Ranged Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="79f4-5578-c041-f866" value="48&quot;"/>
+        <characteristic name="Attacks" characteristicTypeId="4633-0aa3-94f7-3be7" value="A2"/>
+        <characteristic name="Special Rules" characteristicTypeId="9fb1-424b-834c-5e7d" value="AP(2), Blast(3), Indirect"/>
       </characteristics>
     </profile>
   </sharedProfiles>
