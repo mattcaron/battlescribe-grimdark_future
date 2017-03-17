@@ -3584,14 +3584,6 @@
   <entryLinks/>
   <sharedSelectionEntries/>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup id="7abd-9f5f-4ded-7bd0" name="Heroes &amp; Infantry" hidden="false" collective="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <selectionEntries/>
-      <selectionEntryGroups>
         <selectionEntryGroup id="5c25-2376-6fd2-4ee0" name="[A] Upgrade with one:" hidden="false" collective="false">
           <profiles/>
           <rules/>
@@ -5444,23 +5436,13 @@
               <entryLinks/>
               <costs>
                 <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="20.0"/>
-              </costs>
+
+             </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
           <entryLinks/>
         </selectionEntryGroup>
-      </selectionEntryGroups>
-      <entryLinks/>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="5883-fee9-2f35-b15e" name="Monsters &amp; Flyers" hidden="false" collective="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <selectionEntries/>
-      <selectionEntryGroups>
         <selectionEntryGroup id="9aba-9899-c1a5-bfb5" name="[A] Upgrade with any:" hidden="false" collective="false">
           <profiles/>
           <rules/>
@@ -6774,9 +6756,6 @@
           <selectionEntryGroups/>
           <entryLinks/>
         </selectionEntryGroup>
-      </selectionEntryGroups>
-      <entryLinks/>
-    </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="6619-40f9-d94e-e7d8" name="Shrouding Mist" hidden="false">
