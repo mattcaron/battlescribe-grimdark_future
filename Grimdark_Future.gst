@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="d755-5d69-2721-c11b" name="Grimdark Future" book="Grimdark Future v1.1" revision="2" battleScribeVersion="2.00" authorName="Matthew Caron" authorContact="matt@mattcaron.net" authorUrl="https://www.mattcaron.net" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="d755-5d69-2721-c11b" name="Grimdark Future" book="Grimdark Future v1.1" revision="3" battleScribeVersion="2.00" authorName="Matthew Caron" authorContact="matt@mattcaron.net" authorUrl="https://www.mattcaron.net" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -389,8 +389,7 @@
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>This model must accumulate X wounds before being removed as a casualty. If a model with Tough joins a unit without it, then you must
-remove regular models as casualties before starting to accumulate wounds. Note that you must first accumulate wounds on a single Tough model until it is killed before you may start accumulating wounds on another Tough model.</description>
+      <description>This model must accumulate X wounds before being removed as a casualty. If a model with Tough joins a unit without it, then you must remove regular models as casualties before starting to accumulate wounds. Note that you must first accumulate wounds on a single Tough model until it is killed before you may start accumulating wounds on another Tough model.</description>
     </rule>
     <rule id="3460-57e3-8a15-7977" name="Transport(X)" hidden="false">
       <profiles/>

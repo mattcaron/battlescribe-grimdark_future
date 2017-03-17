@@ -7,21 +7,6 @@
   <profileTypes/>
   <forceEntries/>
   <selectionEntries>
-    <selectionEntry id="6933-32ac-dc14-da89" name="Allow House Rules" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d6e2-55a0-6766-2ecd" type="max"/>
-      </constraints>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
-      <costs>
-        <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="afb0-136f-0c0e-3a9d" name="Assault Grunts [10]" hidden="false" collective="false" categoryEntryId="151d-502b-1a39-0176" type="unit">
       <profiles>
         <profile id="690a-c8d9-f06e-4dc2" name="Assault Grunt" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
