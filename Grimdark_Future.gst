@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="d755-5d69-2721-c11b" name="Grimdark Future" book="Grimdark Future v1.1" revision="3" battleScribeVersion="2.00" authorName="Matthew Caron" authorContact="matt@mattcaron.net" authorUrl="https://www.mattcaron.net" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="d755-5d69-2721-c11b" name="Grimdark Future" book="Grimdark Future v1.1" revision="4" battleScribeVersion="2.00" authorName="Matthew Caron" authorContact="matt@mattcaron.net" authorUrl="https://www.mattcaron.net" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -403,8 +403,7 @@
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>These models can be deployed as part of other friendly Infantry units. When rolling for Defense or Morale use the value that the majority
-of models have.</description>
+      <description>These models can be deployed as part of other friendly Infantry units. When rolling for Defense or Morale use the value that the majority of models have.</description>
     </rule>
     <rule id="89a2-a201-07fe-067e" name="Vehicle" hidden="false">
       <profiles/>

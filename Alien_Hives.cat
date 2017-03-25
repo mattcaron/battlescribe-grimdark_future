@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="010a-ae33-1ac8-6edd" name="Alien Hives" book="Grimdark Future - Alien Hives v1.1" revision="2" battleScribeVersion="2.00" authorName="Leto" gameSystemId="d755-5d69-2721-c11b" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="010a-ae33-1ac8-6edd" name="Alien Hives" book="Grimdark Future - Alien Hives v1.1" revision="3" battleScribeVersion="2.00" authorName="Leto" gameSystemId="d755-5d69-2721-c11b" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -4965,7 +4965,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="5ce3-6f63-c709-3010" name="Razor Claws (A3, AP(1))" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -4989,7 +4991,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="26f3-be97-54bd-b5b5" name="Stinger Cannon" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -5143,6 +5147,32 @@
       <entryLinks/>
       <costs>
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1f48-123c-ca36-c1d5" name="Smashing Claws (A2, AP(8))" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="d453-7121-98ae-ca33" name="New InfoLink" hidden="false" targetId="f84f-fda5-e478-455d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="d08c-0a4e-f6e9-4676" name="New InfoLink" hidden="false" targetId="7edc-b9bf-e32f-94c3" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="10.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -5883,7 +5913,7 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="974e-9392-d9e8-a9a5" name="New EntryLink" hidden="false" targetId="a347-030f-631d-d255" type="selectionEntry">
+        <entryLink id="974e-9392-d9e8-a9a5" name="New EntryLink" hidden="false" targetId="1f48-123c-ca36-c1d5" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6491,7 +6521,7 @@
       <modifiers/>
       <characteristics>
         <characteristic name="Attacks" characteristicTypeId="af84-b2a4-6a80-9e7b" value="A2"/>
-        <characteristic name="Special Rules" characteristicTypeId="7a54-240f-72ef-5022" value="AP(8)"/>
+        <characteristic name="Special Rules" characteristicTypeId="7a54-240f-72ef-5022" value="AP(3)"/>
       </characteristics>
     </profile>
     <profile id="6a44-8291-955c-44ce" name="Heavy Acid Cannon" hidden="false" profileTypeId="3c71-da94-e5b3-d7c8" profileTypeName="Ranged Weapon">
@@ -7039,6 +7069,16 @@
       <characteristics>
         <characteristic name="Attacks" characteristicTypeId="af84-b2a4-6a80-9e7b" value="A3"/>
         <characteristic name="Special Rules" characteristicTypeId="7a54-240f-72ef-5022" value="Linked, Poison(3)"/>
+      </characteristics>
+    </profile>
+    <profile id="7edc-b9bf-e32f-94c3" name="Smashing Claws (A2, AP(8))" hidden="false" profileTypeId="a876-7ff4-b28f-0999" profileTypeName="Melee Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Attacks" characteristicTypeId="af84-b2a4-6a80-9e7b" value="A2"/>
+        <characteristic name="Special Rules" characteristicTypeId="7a54-240f-72ef-5022" value="AP(8)"/>
       </characteristics>
     </profile>
   </sharedProfiles>
