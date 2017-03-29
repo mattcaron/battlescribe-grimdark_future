@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ff43-00f9-597f-10f3" name="Havoc Brothers" book="Grimdark Future – Havoc Brothers v1.3" revision="10" battleScribeVersion="2.00" authorName="Matthew Caron" authorContact="matt@mattcaron.net" authorUrl="https://www.mattcaron.net" gameSystemId="d755-5d69-2721-c11b" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ff43-00f9-597f-10f3" name="Havoc Brothers" book="Grimdark Future – Havoc Brothers v1.3" revision="11" battleScribeVersion="2.00" authorName="Matthew Caron" authorContact="matt@mattcaron.net" authorUrl="https://www.mattcaron.net" gameSystemId="d755-5d69-2721-c11b" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -681,7 +681,7 @@
                 <modifier type="set" field="4414-4502-ce98-72a3" value="0.0">
                   <repeats/>
                   <conditions>
-                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="eaa4-9892-b857-17ce" type="equalTo"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d58f-c7d7-4844-6910" type="greaterThan"/>
                   </conditions>
                   <conditionGroups/>
                 </modifier>
@@ -703,7 +703,7 @@
                 <modifier type="set" field="5522-77bf-6949-3cb9" value="0.0">
                   <repeats/>
                   <conditions>
-                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="eaa4-9892-b857-17ce" type="equalTo"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d58f-c7d7-4844-6910" type="greaterThan"/>
                   </conditions>
                   <conditionGroups/>
                 </modifier>
