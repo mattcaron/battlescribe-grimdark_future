@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="010a-ae33-1ac8-6edd" name="Alien Hives" book="Grimdark Future - Alien Hives v1.1" revision="3" battleScribeVersion="2.00" authorName="Leto" gameSystemId="d755-5d69-2721-c11b" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="010a-ae33-1ac8-6edd" name="Alien Hives" book="Grimdark Future - Alien Hives v1.1" revision="4" battleScribeVersion="2.00" authorName="Leto, Matt Caron" authorContact="matt@mattcaron.net" authorUrl="https://www.mattcaron.net" gameSystemId="d755-5d69-2721-c11b" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
