@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="010a-ae33-1ac8-6edd" name="Alien Hives" book="Grimdark Future - Alien Hives v1.1" revision="5" battleScribeVersion="2.00" authorName="Leto, Matt Caron" authorContact="matt@mattcaron.net" authorUrl="https://www.mattcaron.net" gameSystemId="d755-5d69-2721-c11b" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="010a-ae33-1ac8-6edd" name="Alien Hives" book="Grimdark Future - Alien Hives v1.2" revision="6" battleScribeVersion="2.00" authorName="Leto, Matt Caron" authorContact="matt@mattcaron.net" authorUrl="https://www.mattcaron.net" gameSystemId="d755-5d69-2721-c11b" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -2885,7 +2885,7 @@
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="938d-bc11-eef5-aed4" name="New InfoLink" hidden="false" targetId="9726-accd-9015-f6f6" type="rule">
+        <infoLink id="938d-bc11-eef5-aed4" name="New InfoLink" hidden="false" targetId="f84f-fda5-e478-455d" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2911,7 +2911,7 @@
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="a340-8486-bc01-6b84" name="New InfoLink" hidden="false" targetId="f84f-fda5-e478-455d" type="rule">
+        <infoLink id="a340-8486-bc01-6b84" name="New InfoLink" hidden="false" targetId="9726-accd-9015-f6f6" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6368,7 +6368,7 @@
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>If this does something, Anon needs to tell us, because it&apos;s not defined anywhere in the army list.</description>
+      <description>If this unit deals one or more wounds in melee it may heal one wound.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
@@ -6501,7 +6501,7 @@
       <modifiers/>
       <characteristics>
         <characteristic name="Attacks" characteristicTypeId="af84-b2a4-6a80-9e7b" value="A1"/>
-        <characteristic name="Special Rules" characteristicTypeId="7a54-240f-72ef-5022" value="Rending"/>
+        <characteristic name="Special Rules" characteristicTypeId="7a54-240f-72ef-5022" value="AP(4)"/>
       </characteristics>
     </profile>
     <profile id="1b53-3205-b154-411d" name="Tail Scythe" hidden="false" profileTypeId="a876-7ff4-b28f-0999" profileTypeName="Melee Weapon">
@@ -6511,7 +6511,7 @@
       <modifiers/>
       <characteristics>
         <characteristic name="Attacks" characteristicTypeId="af84-b2a4-6a80-9e7b" value="A1"/>
-        <characteristic name="Special Rules" characteristicTypeId="7a54-240f-72ef-5022" value="AP(4)"/>
+        <characteristic name="Special Rules" characteristicTypeId="7a54-240f-72ef-5022" value="Rending"/>
       </characteristics>
     </profile>
     <profile id="89c1-3650-4c8a-47a4" name="Smashing Claws (A2, AP(3))" hidden="false" profileTypeId="a876-7ff4-b28f-0999" profileTypeName="Melee Weapon">
