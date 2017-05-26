@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7d55-0118-8a35-e60f" name="Battle Brothers" book="Grimdark Future - Battle Brothers v1.4, Battle Brother Detachments v1.1" revision="21" battleScribeVersion="2.00" authorName="Matthew Caron" authorContact="matt@mattcaron.net" authorUrl="https://www.mattcaron.net" gameSystemId="d755-5d69-2721-c11b" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7d55-0118-8a35-e60f" name="Battle Brothers" book="Grimdark Future - Battle Brothers v1.4, Battle Brother Detachments v1.1" revision="22" battleScribeVersion="2.00" authorName="Matthew Caron" authorContact="matt@mattcaron.net" authorUrl="https://www.mattcaron.net" gameSystemId="d755-5d69-2721-c11b" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -3169,7 +3169,15 @@
           <modifiers/>
         </infoLink>
       </infoLinks>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="592a-2dd9-f3f3-ab34" type="lessThan"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints/>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -3198,7 +3206,7 @@
           <modifiers/>
           <characteristics>
             <characteristic name="Quality" characteristicTypeId="c619-fc26-5d0b-187d" value="3+"/>
-            <characteristic name="Defense" characteristicTypeId="5564-b1cb-27d0-1af7" value="8+"/>
+            <characteristic name="Defense" characteristicTypeId="5564-b1cb-27d0-1af7" value="7+"/>
             <characteristic name="Special Rules" characteristicTypeId="6039-8041-2416-3f32" value="Dark Assault, Dark Resolve"/>
           </characteristics>
         </profile>
@@ -3224,7 +3232,15 @@
           <modifiers/>
         </infoLink>
       </infoLinks>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="592a-2dd9-f3f3-ab34" type="lessThan"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints/>
       <selectionEntries/>
       <selectionEntryGroups>
@@ -3392,7 +3408,15 @@
           <modifiers/>
         </infoLink>
       </infoLinks>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="592a-2dd9-f3f3-ab34" type="lessThan"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints/>
       <selectionEntries/>
       <selectionEntryGroups>
@@ -3522,7 +3546,15 @@
           <modifiers/>
         </infoLink>
       </infoLinks>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="592a-2dd9-f3f3-ab34" type="lessThan"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints/>
       <selectionEntries/>
       <selectionEntryGroups>
@@ -3634,7 +3666,15 @@
           <modifiers/>
         </infoLink>
       </infoLinks>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="592a-2dd9-f3f3-ab34" type="lessThan"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints/>
       <selectionEntries/>
       <selectionEntryGroups>
@@ -3744,7 +3784,15 @@
           <modifiers/>
         </infoLink>
       </infoLinks>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="592a-2dd9-f3f3-ab34" type="lessThan"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints/>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -3831,7 +3879,15 @@
           <modifiers/>
         </infoLink>
       </infoLinks>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="592a-2dd9-f3f3-ab34" type="lessThan"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints/>
       <selectionEntries/>
       <selectionEntryGroups>
@@ -9083,7 +9139,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="0925-3af7-989f-1e21" name="Hand Flamethrower and CCW" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -9147,7 +9205,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="9b4f-7861-ae7a-e6af" name="Fusion Pistol and CCW" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -9385,7 +9445,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="e940-5c41-321e-6191" name="Plasma Cannon" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -9441,7 +9503,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="8cd8-101a-5f89-b23c" name="Grenade Launcher" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -9529,7 +9593,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="57c7-56b5-d004-dc3c" name="Rift Beam" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -9559,7 +9625,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="ad25-543d-4140-4c72" name="Dark Bomb" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -9595,7 +9663,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="d34c-7df0-a531-da85" name="Sword Missile" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -9625,7 +9695,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="152e-8f62-f1e6-74ce" name="Avenger Minigun" hidden="false" collective="false" type="upgrade">
       <profiles/>
