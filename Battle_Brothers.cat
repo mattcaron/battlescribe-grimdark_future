@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7d55-0118-8a35-e60f" name="Battle Brothers" book="Grimdark Future - Battle Brothers v1.4, Battle Brother Detachments v1.1" revision="23" battleScribeVersion="2.00" authorName="Matthew Caron" authorContact="matt@mattcaron.net" authorUrl="https://www.mattcaron.net" gameSystemId="d755-5d69-2721-c11b" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7d55-0118-8a35-e60f" name="Battle Brothers" book="Grimdark Future - Battle Brothers v1.4, Battle Brother Detachments v1.1" revision="24" battleScribeVersion="2.00" authorName="Matthew Caron" authorContact="matt@mattcaron.net" authorUrl="https://www.mattcaron.net" gameSystemId="d755-5d69-2721-c11b" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -500,22 +500,7 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="6039-8041-2416-3f32" value="Fearless, unit can ignore being Pinned on 4+">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="36b6-f365-7c9a-f35f" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3c75-0892-7bc3-556e" type="greaterThan"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="set" field="6039-8041-2416-3f32" value="Fearless, Regeneration">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="36b6-f365-7c9a-f35f" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e6e6-e167-b736-389e" type="greaterThan"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
+          <modifiers/>
           <characteristics>
             <characteristic name="Quality" characteristicTypeId="c619-fc26-5d0b-187d" value="3+"/>
             <characteristic name="Defense" characteristicTypeId="5564-b1cb-27d0-1af7" value="6+"/>
@@ -4734,16 +4719,15 @@
     </selectionEntry>
     <selectionEntry id="3c75-0892-7bc3-556e" name="Battle Standard" hidden="false" collective="false" type="upgrade">
       <profiles/>
-      <rules>
-        <rule id="729e-1c12-6f62-f50c" name="Battle Standard" hidden="false">
+      <rules/>
+      <infoLinks>
+        <infoLink id="409c-547c-c31d-f737" name="New InfoLink" hidden="false" targetId="0223-12af-cb63-08a6" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>unit can ignore being Pinned on 4+</description>
-        </rule>
-      </rules>
-      <infoLinks/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints/>
       <selectionEntries/>
@@ -12179,7 +12163,7 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Special Rules" characteristicTypeId="189e-687a-bec2-51ad" value="Regeneration"/>
+        <characteristic name="Special Rules" characteristicTypeId="189e-687a-bec2-51ad" value="Adds Regeneration."/>
       </characteristics>
     </profile>
     <profile id="d33d-a332-7db1-2af9" name="Stealth Cloak" hidden="false" profileTypeId="a964-43c6-d8f5-e47f" profileTypeName="Equipment">
@@ -12735,6 +12719,15 @@
         <characteristic name="Range" characteristicTypeId="79f4-5578-c041-f866" value="48&quot;"/>
         <characteristic name="Attacks" characteristicTypeId="4633-0aa3-94f7-3be7" value="A5"/>
         <characteristic name="Special Rules" characteristicTypeId="9fb1-424b-834c-5e7d" value="AP(2)"/>
+      </characteristics>
+    </profile>
+    <profile id="0223-12af-cb63-08a6" name="Battle Standard" hidden="false" profileTypeId="a964-43c6-d8f5-e47f" profileTypeName="Equipment">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Special Rules" characteristicTypeId="189e-687a-bec2-51ad" value="Unit can ignore being Pinned on 4+."/>
       </characteristics>
     </profile>
   </sharedProfiles>
