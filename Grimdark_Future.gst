@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="d755-5d69-2721-c11b" name="Grimdark Future" book="Grimdark Future v1.1" revision="4" battleScribeVersion="2.00" authorName="Matthew Caron" authorContact="matt@mattcaron.net" authorUrl="https://www.mattcaron.net" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="d755-5d69-2721-c11b" name="Grimdark Future" book="Grimdark Future v1.1" revision="5" battleScribeVersion="2.00" authorName="Matthew Caron" authorContact="matt@mattcaron.net" authorUrl="https://www.mattcaron.net" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -41,6 +41,15 @@
       <modifiers/>
       <constraints/>
       <categoryEntries>
+        <categoryEntry id="959e-93a2-469d-3731" name="Detachment Options" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f4d2-2ccc-2817-8120" type="max"/>
+          </constraints>
+        </categoryEntry>
         <categoryEntry id="fd3a-2c8a-2e7d-9b0e" name="Heroes" hidden="false">
           <profiles/>
           <rules/>

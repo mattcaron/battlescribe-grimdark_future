@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7d55-0118-8a35-e60f" name="Battle Brothers" book="Grimdark Future - Battle Brothers v1.4, Battle Brother Detachments v1.1" revision="25" battleScribeVersion="2.00" authorName="Matthew Caron" authorContact="matt@mattcaron.net" authorUrl="https://www.mattcaron.net" gameSystemId="d755-5d69-2721-c11b" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7d55-0118-8a35-e60f" name="Battle Brothers" book="Grimdark Future - Battle Brothers v1.4, Battle Brother Detachments v1.1" revision="26" battleScribeVersion="2.00" authorName="Matthew Caron" authorContact="matt@mattcaron.net" authorUrl="https://www.mattcaron.net" gameSystemId="d755-5d69-2721-c11b" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -3106,7 +3106,7 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="305.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="592a-2dd9-f3f3-ab34" name="Enable Dark Brothers Entries" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="592a-2dd9-f3f3-ab34" name="Enable Dark Brothers Entries" hidden="false" collective="false" categoryEntryId="959e-93a2-469d-3731" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -4064,7 +4064,7 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="300.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3e05-1017-f339-bffd" name="Enable Blood Brothers Entries" hidden="false" collective="false" categoryEntryId="(No Category)" type="upgrade">
+    <selectionEntry id="3e05-1017-f339-bffd" name="Enable Blood Brothers Entries" hidden="false" collective="false" categoryEntryId="959e-93a2-469d-3731" type="upgrade">
       <profiles/>
       <rules/>
       <infoLinks/>
