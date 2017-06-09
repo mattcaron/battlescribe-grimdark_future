@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="d755-5d69-2721-c11b" name="Grimdark Future" book="Grimdark Future v1.1" revision="5" battleScribeVersion="2.00" authorName="Matthew Caron" authorContact="matt@mattcaron.net" authorUrl="https://www.mattcaron.net" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="d755-5d69-2721-c11b" name="Grimdark Future" book="Grimdark Future v1.5" revision="6" battleScribeVersion="2.00" authorName="Matthew Caron" authorContact="matt@mattcaron.net" authorUrl="https://www.mattcaron.net" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -356,7 +356,7 @@
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>For each unmodified result of 6 you roll to hit with this weapon the target takes one wound, without needing to roll for it.</description>
+      <description>When rolling a result of 6 to hit with this weapon it always wounds on a roll of 2+.</description>
     </rule>
     <rule id="7bc7-a892-49bc-ad88" name="Scout" hidden="false">
       <profiles/>
