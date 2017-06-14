@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ff43-00f9-597f-10f3" name="Havoc Brothers" book="Grimdark Future – Havoc Brothers v1.4" revision="12" battleScribeVersion="2.00" authorName="Matthew Caron" authorContact="matt@mattcaron.net" authorUrl="https://www.mattcaron.net" gameSystemId="d755-5d69-2721-c11b" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ff43-00f9-597f-10f3" name="Havoc Brothers" book="Grimdark Future – Havoc Brothers v1.4" revision="14" battleScribeVersion="2.00" authorName="Matthew Caron" authorContact="matt@mattcaron.net" authorUrl="https://www.mattcaron.net" gameSystemId="d755-5d69-2721-c11b" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -153,6 +153,12 @@
           <modifiers/>
         </infoLink>
         <infoLink id="eeea-c2d1-0915-b514" name="New InfoLink" hidden="false" targetId="b9d3-4d17-007c-22cb" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="eb13-5727-4734-3924" name="New InfoLink" hidden="false" targetId="ded5-4f1f-c61d-4659" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -5273,7 +5279,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="32a1-518a-66a0-e636" name="Plasma Pistol and Energy Fist" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -5745,6 +5753,58 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="20.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="922e-bd0f-1812-62fb" name="Autocannon" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="ca81-6121-21a3-4d23" name="New InfoLink" hidden="false" targetId="f84f-fda5-e478-455d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="e82e-b9c8-e96b-7cd2" name="New InfoLink" hidden="false" targetId="ed9d-1e2c-199f-ea20" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="70.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="903e-6e21-8014-c671" name="Pistol and CCW" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks>
+        <infoLink id="c5da-4866-4d9d-1650" name="New InfoLink" hidden="false" targetId="0f27-5870-819a-689d" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="d4ed-6508-0c74-29fc" name="New InfoLink" hidden="false" targetId="561e-da47-77d0-7dcf" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="ff52-3941-04b8-6791" name="[A] Replace one Assault Rifle:" hidden="false" collective="false">
@@ -5980,7 +6040,7 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="e39a-2a1b-8337-c23f" name="New EntryLink" hidden="false" targetId="8487-d59a-3768-bcf3" type="selectionEntry">
+        <entryLink id="e39a-2a1b-8337-c23f" name="New EntryLink" hidden="false" targetId="903e-6e21-8014-c671" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6049,7 +6109,7 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="44cc-944b-2478-5cb1" name="New EntryLink" hidden="false" targetId="4788-2b50-bbf5-4f13" type="selectionEntry">
+        <entryLink id="44cc-944b-2478-5cb1" name="New EntryLink" hidden="false" targetId="f715-1b33-dc0d-a39c" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6063,7 +6123,7 @@
           <modifiers/>
           <constraints/>
         </entryLink>
-        <entryLink id="9f7e-b45d-9d7d-7b84" name="New EntryLink" hidden="false" targetId="5a1e-147a-5a16-bbf3" type="selectionEntry">
+        <entryLink id="9f7e-b45d-9d7d-7b84" name="New EntryLink" hidden="false" targetId="1d06-ed5b-9625-d92a" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6071,27 +6131,6 @@
           <constraints/>
         </entryLink>
         <entryLink id="d429-1a1d-6b93-0018" name="New EntryLink" hidden="false" targetId="13b9-8370-8a7a-d9a1" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </entryLink>
-        <entryLink id="340d-9431-abe4-fe41" name="New EntryLink" hidden="false" targetId="09a4-21c2-f8a5-fadb" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </entryLink>
-        <entryLink id="31e7-8af6-2f17-4807" name="New EntryLink" hidden="false" targetId="e028-03e3-00ba-3b7f" type="selectionEntry">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </entryLink>
-        <entryLink id="8f48-b7c6-b8f0-63a1" name="New EntryLink" hidden="false" targetId="b46e-79b8-d212-12f4" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6106,6 +6145,13 @@
           <constraints/>
         </entryLink>
         <entryLink id="5ef8-807d-d931-9299" name="New EntryLink" hidden="false" targetId="2903-4059-8682-f3fe" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </entryLink>
+        <entryLink id="4a6f-a156-d169-af88" name="New EntryLink" hidden="false" targetId="922e-bd0f-1812-62fb" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
