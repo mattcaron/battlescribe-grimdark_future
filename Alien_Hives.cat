@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="010a-ae33-1ac8-6edd" name="Alien Hives" book="Grimdark Future - Alien Hives v1.2" revision="6" battleScribeVersion="2.00" authorName="Leto, Matt Caron" authorContact="matt@mattcaron.net" authorUrl="https://www.mattcaron.net" gameSystemId="d755-5d69-2721-c11b" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<?xml version="1.0" encoding="UTF-8"?><catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" battleScribeVersion="2.01" id="010a-ae33-1ac8-6edd" name="Alien Hives" book="Grimdark Future - Alien Hives v1.2" revision="6" authorName="Leto, Matt Caron" authorContact="matt@mattcaron.net" authorUrl="https://www.mattcaron.net" gameSystemId="d755-5d69-2721-c11b" gameSystemRevision="2">
+<categoryEntries/>
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -7,7 +7,10 @@
   <profileTypes/>
   <forceEntries/>
   <selectionEntries>
-    <selectionEntry id="afb0-136f-0c0e-3a9d" name="Assault Grunts [10]" hidden="false" collective="false" categoryEntryId="151d-502b-1a39-0176" type="unit">
+    <selectionEntry id="afb0-136f-0c0e-3a9d" name="Assault Grunts [10]" hidden="false" collective="false" type="unit">
+<categoryLinks>
+<categoryLink id="afb0-136f-0c0e-3a9d-151d-502b-1a39-0176" targetId="151d-502b-1a39-0176" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="690a-c8d9-f06e-4dc2" name="Assault Grunt" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
           <profiles/>
@@ -63,7 +66,10 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="100.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="fe49-34ba-954f-5f29" name="Hive Lord [1]" hidden="false" collective="false" categoryEntryId="fd3a-2c8a-2e7d-9b0e" type="model">
+    <selectionEntry id="fe49-34ba-954f-5f29" name="Hive Lord [1]" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="fe49-34ba-954f-5f29-fd3a-2c8a-2e7d-9b0e" targetId="fd3a-2c8a-2e7d-9b0e" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="269c-5caa-68ef-6f57" name="Hive Lord" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
           <profiles/>
@@ -193,7 +199,10 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="85.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1dc4-ae9b-8d82-67d9" name="Prime Warrior [1]" hidden="false" collective="false" categoryEntryId="fd3a-2c8a-2e7d-9b0e" type="unit">
+    <selectionEntry id="1dc4-ae9b-8d82-67d9" name="Prime Warrior [1]" hidden="false" collective="false" type="unit">
+<categoryLinks>
+<categoryLink id="1dc4-ae9b-8d82-67d9-fd3a-2c8a-2e7d-9b0e" targetId="fd3a-2c8a-2e7d-9b0e" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="3b73-762b-685d-7142" name="Prime Warrior" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
           <profiles/>
@@ -335,7 +344,10 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="75.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="93b7-f784-d76e-cdaf" name="Soul-Snatcher Lord [1]" hidden="false" collective="false" categoryEntryId="fd3a-2c8a-2e7d-9b0e" type="unit">
+    <selectionEntry id="93b7-f784-d76e-cdaf" name="Soul-Snatcher Lord [1]" hidden="false" collective="false" type="unit">
+<categoryLinks>
+<categoryLink id="93b7-f784-d76e-cdaf-fd3a-2c8a-2e7d-9b0e" targetId="fd3a-2c8a-2e7d-9b0e" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="cc9a-7d6d-dad2-eb88" name="Soul-Snatcher Lord" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
           <profiles/>
@@ -432,7 +444,10 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="70.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="85c0-36a0-391d-6717" name="Grunts [10]" hidden="false" collective="false" categoryEntryId="151d-502b-1a39-0176" type="unit">
+    <selectionEntry id="85c0-36a0-391d-6717" name="Grunts [10]" hidden="false" collective="false" type="unit">
+<categoryLinks>
+<categoryLink id="85c0-36a0-391d-6717-151d-502b-1a39-0176" targetId="151d-502b-1a39-0176" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="2621-9219-73a9-954d" name="Grunt" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
           <profiles/>
@@ -545,7 +560,10 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="80.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="965d-4bd9-ff30-1360" name="Winged Grunts [10]" hidden="false" collective="false" categoryEntryId="151d-502b-1a39-0176" type="unit">
+    <selectionEntry id="965d-4bd9-ff30-1360" name="Winged Grunts [10]" hidden="false" collective="false" type="unit">
+<categoryLinks>
+<categoryLink id="965d-4bd9-ff30-1360-151d-502b-1a39-0176" targetId="151d-502b-1a39-0176" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="6197-300b-7b5e-8ff0" name="Winged Grunts [10]" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
           <profiles/>
@@ -601,7 +619,10 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="110.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="fc12-191d-61a2-41d4" name="Soul-Snatchers [5]" hidden="false" collective="false" categoryEntryId="151d-502b-1a39-0176" type="unit">
+    <selectionEntry id="fc12-191d-61a2-41d4" name="Soul-Snatchers [5]" hidden="false" collective="false" type="unit">
+<categoryLinks>
+<categoryLink id="fc12-191d-61a2-41d4-151d-502b-1a39-0176" targetId="151d-502b-1a39-0176" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="2dba-1103-d71d-322d" name="Soul-Snatchers" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
           <profiles/>
@@ -689,7 +710,10 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="155.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8bb4-e165-4616-6773" name="Hive Swarm [3]" hidden="false" collective="false" categoryEntryId="151d-502b-1a39-0176" type="unit">
+    <selectionEntry id="8bb4-e165-4616-6773" name="Hive Swarm [3]" hidden="false" collective="false" type="unit">
+<categoryLinks>
+<categoryLink id="8bb4-e165-4616-6773-151d-502b-1a39-0176" targetId="151d-502b-1a39-0176" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="f983-7f2f-d0df-5a7f" name="Hive Swarm" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
           <profiles/>
@@ -771,7 +795,10 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="40.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="aebc-07af-ed6e-a878" name="Hive Warriors [3]" hidden="false" collective="false" categoryEntryId="151d-502b-1a39-0176" type="unit">
+    <selectionEntry id="aebc-07af-ed6e-a878" name="Hive Warriors [3]" hidden="false" collective="false" type="unit">
+<categoryLinks>
+<categoryLink id="aebc-07af-ed6e-a878-151d-502b-1a39-0176" targetId="151d-502b-1a39-0176" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="48e1-2c1c-1ce6-9439" name="Hive Warrior" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
           <profiles/>
@@ -929,7 +956,10 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="140.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0582-2529-7687-72f2" name="Hive Guardians [3]" hidden="false" collective="false" categoryEntryId="151d-502b-1a39-0176" type="unit">
+    <selectionEntry id="0582-2529-7687-72f2" name="Hive Guardians [3]" hidden="false" collective="false" type="unit">
+<categoryLinks>
+<categoryLink id="0582-2529-7687-72f2-151d-502b-1a39-0176" targetId="151d-502b-1a39-0176" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="237c-5028-8df7-ad55" name="Hive Guardian" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
           <profiles/>
@@ -1071,7 +1101,10 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="190.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="726e-9515-1d2b-ef57" name="Shadow Hunter [1]" hidden="false" collective="false" categoryEntryId="151d-502b-1a39-0176" type="unit">
+    <selectionEntry id="726e-9515-1d2b-ef57" name="Shadow Hunter [1]" hidden="false" collective="false" type="unit">
+<categoryLinks>
+<categoryLink id="726e-9515-1d2b-ef57-151d-502b-1a39-0176" targetId="151d-502b-1a39-0176" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="839d-e121-a750-35d6" name="Shadow Hunter" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
           <profiles/>
@@ -1181,7 +1214,10 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="50.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="641c-26f1-47da-efbf" name="Venom Floaters [3]" hidden="false" collective="false" categoryEntryId="151d-502b-1a39-0176" type="unit">
+    <selectionEntry id="641c-26f1-47da-efbf" name="Venom Floaters [3]" hidden="false" collective="false" type="unit">
+<categoryLinks>
+<categoryLink id="641c-26f1-47da-efbf-151d-502b-1a39-0176" targetId="151d-502b-1a39-0176" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="d9b6-6776-9af0-4472" name="Venom Floater" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
           <profiles/>
@@ -1236,7 +1272,10 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="145.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="fb15-3b29-fd85-403d" name="Synapse Floaters [3]" hidden="false" collective="false" categoryEntryId="151d-502b-1a39-0176" type="unit">
+    <selectionEntry id="fb15-3b29-fd85-403d" name="Synapse Floaters [3]" hidden="false" collective="false" type="unit">
+<categoryLinks>
+<categoryLink id="fb15-3b29-fd85-403d-151d-502b-1a39-0176" targetId="151d-502b-1a39-0176" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="f388-d183-2088-ba4e" name="Synapse Floater" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
           <profiles/>
@@ -1292,7 +1331,10 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="175.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d740-7bc9-73ad-eafd" name="Ravenous Beasts [3]" hidden="false" collective="false" categoryEntryId="151d-502b-1a39-0176" type="unit">
+    <selectionEntry id="d740-7bc9-73ad-eafd" name="Ravenous Beasts [3]" hidden="false" collective="false" type="unit">
+<categoryLinks>
+<categoryLink id="d740-7bc9-73ad-eafd-151d-502b-1a39-0176" targetId="151d-502b-1a39-0176" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="d0bd-53ec-3f97-37a9" name="Ravenous Beast" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
           <profiles/>
@@ -1407,7 +1449,10 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="115.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="bf08-6c9b-6e13-5f85" name="Flamer Beast [1]" hidden="false" collective="false" categoryEntryId="151d-502b-1a39-0176" type="unit">
+    <selectionEntry id="bf08-6c9b-6e13-5f85" name="Flamer Beast [1]" hidden="false" collective="false" type="unit">
+<categoryLinks>
+<categoryLink id="bf08-6c9b-6e13-5f85-151d-502b-1a39-0176" targetId="151d-502b-1a39-0176" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="7a46-993b-26c4-11eb" name="Flamer Beast" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
           <profiles/>
@@ -1460,7 +1505,10 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="60.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e931-dd3b-766e-d774" name="Mortar Beast [1]" hidden="false" collective="false" categoryEntryId="151d-502b-1a39-0176" type="unit">
+    <selectionEntry id="e931-dd3b-766e-d774" name="Mortar Beast [1]" hidden="false" collective="false" type="unit">
+<categoryLinks>
+<categoryLink id="e931-dd3b-766e-d774-151d-502b-1a39-0176" targetId="151d-502b-1a39-0176" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="7fd0-6367-4586-8960" name="Mortar Beast" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
           <profiles/>
@@ -1513,7 +1561,10 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="145.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3a71-38ab-ad4f-6559" name="Spores [3]" hidden="false" collective="false" categoryEntryId="151d-502b-1a39-0176" type="unit">
+    <selectionEntry id="3a71-38ab-ad4f-6559" name="Spores [3]" hidden="false" collective="false" type="unit">
+<categoryLinks>
+<categoryLink id="3a71-38ab-ad4f-6559-151d-502b-1a39-0176" targetId="151d-502b-1a39-0176" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="b49b-8511-e036-f248" name="Spores" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
           <profiles/>
@@ -1545,7 +1596,10 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="30.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8375-fc4a-b688-8b14" name="Carnivo-Rex [1]" hidden="false" collective="false" categoryEntryId="2f40-c39a-80bf-b422" type="unit">
+    <selectionEntry id="8375-fc4a-b688-8b14" name="Carnivo-Rex [1]" hidden="false" collective="false" type="unit">
+<categoryLinks>
+<categoryLink id="8375-fc4a-b688-8b14-2f40-c39a-80bf-b422" targetId="2f40-c39a-80bf-b422" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="7740-d569-53a2-5bd5" name="Carnivo-Rex" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
           <profiles/>
@@ -1676,7 +1730,10 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="100.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9903-8946-8c6e-bbff" name="Psycho-Rex [1]" hidden="false" collective="false" categoryEntryId="2f40-c39a-80bf-b422" type="unit">
+    <selectionEntry id="9903-8946-8c6e-bbff" name="Psycho-Rex [1]" hidden="false" collective="false" type="unit">
+<categoryLinks>
+<categoryLink id="9903-8946-8c6e-bbff-2f40-c39a-80bf-b422" targetId="2f40-c39a-80bf-b422" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="b6b9-f195-a24a-a2c0" name="Psycho-Rex" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
           <profiles/>
@@ -1743,7 +1800,10 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="105.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6196-355f-33dc-d721" name="Toxico-Rex [1]" hidden="false" collective="false" categoryEntryId="2f40-c39a-80bf-b422" type="unit">
+    <selectionEntry id="6196-355f-33dc-d721" name="Toxico-Rex [1]" hidden="false" collective="false" type="unit">
+<categoryLinks>
+<categoryLink id="6196-355f-33dc-d721-2f40-c39a-80bf-b422" targetId="2f40-c39a-80bf-b422" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="19b3-bd81-9f61-bc70" name="Toxico-Rex" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
           <profiles/>
@@ -1808,7 +1868,10 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="140.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b75a-4d40-fe22-a6d3" name="Devourer Beast [1]" hidden="false" collective="false" categoryEntryId="2f40-c39a-80bf-b422" type="unit">
+    <selectionEntry id="b75a-4d40-fe22-a6d3" name="Devourer Beast [1]" hidden="false" collective="false" type="unit">
+<categoryLinks>
+<categoryLink id="b75a-4d40-fe22-a6d3-2f40-c39a-80bf-b422" targetId="2f40-c39a-80bf-b422" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="cc02-b62b-8764-abef" name="Devourer Beast" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
           <profiles/>
@@ -1905,7 +1968,10 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="175.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3b1a-5765-3734-4004" name="Tyrant Beast [1]" hidden="false" collective="false" categoryEntryId="2f40-c39a-80bf-b422" type="unit">
+    <selectionEntry id="3b1a-5765-3734-4004" name="Tyrant Beast [1]" hidden="false" collective="false" type="unit">
+<categoryLinks>
+<categoryLink id="3b1a-5765-3734-4004-2f40-c39a-80bf-b422" targetId="2f40-c39a-80bf-b422" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="caf2-f2a7-01ff-dd84" name="Tyrant Beast" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
           <profiles/>
@@ -2018,7 +2084,10 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="200.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8def-f0bc-60ac-d368" name="Artillery Beast [1]" hidden="false" collective="false" categoryEntryId="2f40-c39a-80bf-b422" type="unit">
+    <selectionEntry id="8def-f0bc-60ac-d368" name="Artillery Beast [1]" hidden="false" collective="false" type="unit">
+<categoryLinks>
+<categoryLink id="8def-f0bc-60ac-d368-2f40-c39a-80bf-b422" targetId="2f40-c39a-80bf-b422" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="d168-d767-f4fa-0d83" name="Artillery Beast" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
           <profiles/>
@@ -2108,7 +2177,10 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="215.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f454-0e51-a25a-1a19" name="Spawning Beast [1]" hidden="false" collective="false" categoryEntryId="2f40-c39a-80bf-b422" type="unit">
+    <selectionEntry id="f454-0e51-a25a-1a19" name="Spawning Beast [1]" hidden="false" collective="false" type="unit">
+<categoryLinks>
+<categoryLink id="f454-0e51-a25a-1a19-2f40-c39a-80bf-b422" targetId="2f40-c39a-80bf-b422" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="571d-486c-9778-8bdd" name="Spawning Beast" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
           <profiles/>
@@ -2249,7 +2321,10 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="465.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1d87-6ade-6b3d-1028" name="Burrower [1]" hidden="false" collective="false" categoryEntryId="2f40-c39a-80bf-b422" type="unit">
+    <selectionEntry id="1d87-6ade-6b3d-1028" name="Burrower [1]" hidden="false" collective="false" type="unit">
+<categoryLinks>
+<categoryLink id="1d87-6ade-6b3d-1028-2f40-c39a-80bf-b422" targetId="2f40-c39a-80bf-b422" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="f73b-1197-37ff-52cc" name="Burrower" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
           <profiles/>
@@ -2349,7 +2424,10 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="145.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="dfd8-3515-ebf9-b8d9" name="Invasion Spore [1]" hidden="false" collective="false" categoryEntryId="2f40-c39a-80bf-b422" type="unit">
+    <selectionEntry id="dfd8-3515-ebf9-b8d9" name="Invasion Spore [1]" hidden="false" collective="false" type="unit">
+<categoryLinks>
+<categoryLink id="dfd8-3515-ebf9-b8d9-2f40-c39a-80bf-b422" targetId="2f40-c39a-80bf-b422" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="a074-a9c1-7b8a-c4ce" name="Invasion Spore" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
           <profiles/>
@@ -2426,7 +2504,10 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="30.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a5f8-4e9f-0621-e28e" name="Rapacious Beast [1]" hidden="false" collective="false" categoryEntryId="2f40-c39a-80bf-b422" type="unit">
+    <selectionEntry id="a5f8-4e9f-0621-e28e" name="Rapacious Beast [1]" hidden="false" collective="false" type="unit">
+<categoryLinks>
+<categoryLink id="a5f8-4e9f-0621-e28e-2f40-c39a-80bf-b422" targetId="2f40-c39a-80bf-b422" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="e583-3484-3c7b-f037" name="Rapacious Beast" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
           <profiles/>

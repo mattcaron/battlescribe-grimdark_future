@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ff43-00f9-597f-10f3" name="Havoc Brothers" book="Grimdark Future – Havoc Brothers v1.4" revision="14" battleScribeVersion="2.00" authorName="Matthew Caron" authorContact="matt@mattcaron.net" authorUrl="https://www.mattcaron.net" gameSystemId="d755-5d69-2721-c11b" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<?xml version="1.0" encoding="UTF-8"?><catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" battleScribeVersion="2.01" id="ff43-00f9-597f-10f3" name="Havoc Brothers" book="Grimdark Future – Havoc Brothers v1.4" revision="14" authorName="Matthew Caron" authorContact="matt@mattcaron.net" authorUrl="https://www.mattcaron.net" gameSystemId="d755-5d69-2721-c11b" gameSystemRevision="2">
+<categoryEntries/>
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -7,7 +7,10 @@
   <profileTypes/>
   <forceEntries/>
   <selectionEntries>
-    <selectionEntry id="e735-a567-da6b-98b9" name="Havoc Lord [1]" hidden="false" collective="false" categoryEntryId="fd3a-2c8a-2e7d-9b0e" type="model">
+    <selectionEntry id="e735-a567-da6b-98b9" name="Havoc Lord [1]" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="e735-a567-da6b-98b9-fd3a-2c8a-2e7d-9b0e" targetId="fd3a-2c8a-2e7d-9b0e" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="b253-5836-e371-b525" name="Havoc Lord" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
           <profiles/>
@@ -118,7 +121,10 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="40.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2070-33e0-37e5-8402" name="Dark Champion [1]" hidden="false" collective="false" categoryEntryId="fd3a-2c8a-2e7d-9b0e" type="model">
+    <selectionEntry id="2070-33e0-37e5-8402" name="Dark Champion [1]" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="2070-33e0-37e5-8402-fd3a-2c8a-2e7d-9b0e" targetId="fd3a-2c8a-2e7d-9b0e" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="7a2f-ee0d-8f49-8257" name="Dark Champion" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
           <profiles/>
@@ -233,7 +239,10 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="60.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="439d-13d4-d231-b092" name="Dark Psychic [1]" hidden="false" collective="false" categoryEntryId="fd3a-2c8a-2e7d-9b0e" type="model">
+    <selectionEntry id="439d-13d4-d231-b092" name="Dark Psychic [1]" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="439d-13d4-d231-b092-fd3a-2c8a-2e7d-9b0e" targetId="fd3a-2c8a-2e7d-9b0e" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="f7e3-799c-b600-5257" name="Dark Psychic" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
           <profiles/>
@@ -357,7 +366,10 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="55.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c0df-8da7-008c-b663" name="Daemon Champion [1]" hidden="false" collective="false" categoryEntryId="2f40-c39a-80bf-b422" type="model">
+    <selectionEntry id="c0df-8da7-008c-b663" name="Daemon Champion [1]" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="c0df-8da7-008c-b663-2f40-c39a-80bf-b422" targetId="2f40-c39a-80bf-b422" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="1b53-b664-c28a-8c2a" name="Daemon Champion" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
           <profiles/>
@@ -432,7 +444,10 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="80.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2af1-df71-832e-b274" name="Cultists [10]" hidden="false" collective="false" categoryEntryId="151d-502b-1a39-0176" type="unit">
+    <selectionEntry id="2af1-df71-832e-b274" name="Cultists [10]" hidden="false" collective="false" type="unit">
+<categoryLinks>
+<categoryLink id="2af1-df71-832e-b274-151d-502b-1a39-0176" targetId="151d-502b-1a39-0176" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="c8d5-35a0-33b5-dde7" name="Cultist" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
           <profiles/>
@@ -560,7 +575,10 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="90.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e601-62af-5530-5609" name="Havoc Brothers [5]" hidden="false" collective="false" categoryEntryId="151d-502b-1a39-0176" type="unit">
+    <selectionEntry id="e601-62af-5530-5609" name="Havoc Brothers [5]" hidden="false" collective="false" type="unit">
+<categoryLinks>
+<categoryLink id="e601-62af-5530-5609-151d-502b-1a39-0176" targetId="151d-502b-1a39-0176" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="74dc-b7c8-5f84-2217" name="Havoc Brother" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
           <profiles/>
@@ -710,7 +728,10 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="105.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8bb0-097e-66be-c858" name="Talon Raptors [5]" hidden="false" collective="false" categoryEntryId="151d-502b-1a39-0176" type="unit">
+    <selectionEntry id="8bb0-097e-66be-c858" name="Talon Raptors [5]" hidden="false" collective="false" type="unit">
+<categoryLinks>
+<categoryLink id="8bb0-097e-66be-c858-151d-502b-1a39-0176" targetId="151d-502b-1a39-0176" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="b5fe-cd5c-ea86-b06c" name="Talon Raptor" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
           <profiles/>
@@ -889,7 +910,10 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="155.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d549-ca37-a2a5-3ef1" name="Havoc Destroyers [5]" hidden="false" collective="false" categoryEntryId="151d-502b-1a39-0176" type="unit">
+    <selectionEntry id="d549-ca37-a2a5-3ef1" name="Havoc Destroyers [5]" hidden="false" collective="false" type="unit">
+<categoryLinks>
+<categoryLink id="d549-ca37-a2a5-3ef1-151d-502b-1a39-0176" targetId="151d-502b-1a39-0176" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="0bda-2595-c6c0-affc" name="Havoc Destroyer" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
           <profiles/>
@@ -1102,7 +1126,10 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="220.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9a1e-fc92-448b-c278" name="Mutated Destroyers [3]" hidden="false" collective="false" categoryEntryId="151d-502b-1a39-0176" type="unit">
+    <selectionEntry id="9a1e-fc92-448b-c278" name="Mutated Destroyers [3]" hidden="false" collective="false" type="unit">
+<categoryLinks>
+<categoryLink id="9a1e-fc92-448b-c278-151d-502b-1a39-0176" targetId="151d-502b-1a39-0176" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="9b56-6b19-df49-7f29" name="Mutated Destroyer" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
           <profiles/>
@@ -1203,7 +1230,10 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="180.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3341-b232-f091-d584" name="Havoc Bikers [3]" hidden="false" collective="false" categoryEntryId="151d-502b-1a39-0176" type="unit">
+    <selectionEntry id="3341-b232-f091-d584" name="Havoc Bikers [3]" hidden="false" collective="false" type="unit">
+<categoryLinks>
+<categoryLink id="3341-b232-f091-d584-151d-502b-1a39-0176" targetId="151d-502b-1a39-0176" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="d45a-96da-3a3c-9636" name="Havoc Biker" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
           <profiles/>
@@ -1294,7 +1324,10 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="80.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ec10-0771-3793-85a0" name="Daemon Spawn [1]" hidden="false" collective="false" categoryEntryId="151d-502b-1a39-0176" type="model">
+    <selectionEntry id="ec10-0771-3793-85a0" name="Daemon Spawn [1]" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="ec10-0771-3793-85a0-151d-502b-1a39-0176" targetId="151d-502b-1a39-0176" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="7133-8a0d-99a1-af70" name="Daemon Spawn" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
           <profiles/>
@@ -1355,7 +1388,10 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="40.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1d3d-d34c-9db1-d1f4" name="Havoc APC [1]" hidden="false" collective="false" categoryEntryId="2f40-c39a-80bf-b422" type="model">
+    <selectionEntry id="1d3d-d34c-9db1-d1f4" name="Havoc APC [1]" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="1d3d-d34c-9db1-d1f4-2f40-c39a-80bf-b422" targetId="2f40-c39a-80bf-b422" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="0791-e605-17ea-fb4f" name="Havoc APC" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
           <profiles/>
@@ -1447,7 +1483,10 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="80.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="39cf-3299-be30-7add" name="Havoc Tank [1]" hidden="false" collective="false" categoryEntryId="2f40-c39a-80bf-b422" type="model">
+    <selectionEntry id="39cf-3299-be30-7add" name="Havoc Tank [1]" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="39cf-3299-be30-7add-2f40-c39a-80bf-b422" targetId="2f40-c39a-80bf-b422" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="7d66-204d-b961-f930" name="Havoc Tank" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
           <profiles/>
@@ -1572,7 +1611,10 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="195.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8838-70ea-b21b-423c" name="Havoc Heavy Tank [1]" hidden="false" collective="false" categoryEntryId="2f40-c39a-80bf-b422" type="model">
+    <selectionEntry id="8838-70ea-b21b-423c" name="Havoc Heavy Tank [1]" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="8838-70ea-b21b-423c-2f40-c39a-80bf-b422" targetId="2f40-c39a-80bf-b422" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="61be-ee8b-a070-018f" name="Havoc Heavy Tank [1]" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
           <profiles/>
@@ -1684,7 +1726,10 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="505.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="73c3-2721-f393-9d1e" name="Brute [1]" hidden="false" collective="false" categoryEntryId="2f40-c39a-80bf-b422" type="model">
+    <selectionEntry id="73c3-2721-f393-9d1e" name="Brute [1]" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="73c3-2721-f393-9d1e-2f40-c39a-80bf-b422" targetId="2f40-c39a-80bf-b422" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="00f0-1682-573b-3083" name="Brute" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
           <profiles/>
@@ -1773,7 +1818,10 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="170.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9ffb-fdb9-1e49-4fd2" name="Havoc Fiend [1]" hidden="false" collective="false" categoryEntryId="2f40-c39a-80bf-b422" type="model">
+    <selectionEntry id="9ffb-fdb9-1e49-4fd2" name="Havoc Fiend [1]" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="9ffb-fdb9-1e49-4fd2-2f40-c39a-80bf-b422" targetId="2f40-c39a-80bf-b422" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="340c-cfab-c8b2-c9ac" name="Havoc Fiend" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
           <profiles/>
@@ -1907,7 +1955,10 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="210.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="bc03-3918-095b-d09e" name="Crab Walker [1]" hidden="false" collective="false" categoryEntryId="2f40-c39a-80bf-b422" type="model">
+    <selectionEntry id="bc03-3918-095b-d09e" name="Crab Walker [1]" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="bc03-3918-095b-d09e-2f40-c39a-80bf-b422" targetId="2f40-c39a-80bf-b422" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="20db-0b22-693e-c575" name="Crab Walker [1]" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
           <profiles/>
@@ -2037,7 +2088,10 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="470.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2d6a-ceaa-8412-c351" name="Havoc Dragon [1]" hidden="false" collective="false" categoryEntryId="2f40-c39a-80bf-b422" type="model">
+    <selectionEntry id="2d6a-ceaa-8412-c351" name="Havoc Dragon [1]" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="2d6a-ceaa-8412-c351-2f40-c39a-80bf-b422" targetId="2f40-c39a-80bf-b422" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="1ef2-0761-8b60-16f1" name="Havoc Dragon" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
           <profiles/>
@@ -2131,7 +2185,10 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="165.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="fde3-6d2f-1b9f-1a4d" name="Havoc Support [5]" hidden="false" collective="false" categoryEntryId="151d-502b-1a39-0176" type="unit">
+    <selectionEntry id="fde3-6d2f-1b9f-1a4d" name="Havoc Support [5]" hidden="false" collective="false" type="unit">
+<categoryLinks>
+<categoryLink id="fde3-6d2f-1b9f-1a4d-151d-502b-1a39-0176" targetId="151d-502b-1a39-0176" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="2e9d-ac56-1fcd-3780" name="Havoc Support" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
           <profiles/>
@@ -2208,7 +2265,10 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="165.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="881b-77e9-3321-54da" name="Posessed Brothers [5]" hidden="false" collective="false" categoryEntryId="151d-502b-1a39-0176" type="unit">
+    <selectionEntry id="881b-77e9-3321-54da" name="Posessed Brothers [5]" hidden="false" collective="false" type="unit">
+<categoryLinks>
+<categoryLink id="881b-77e9-3321-54da-151d-502b-1a39-0176" targetId="151d-502b-1a39-0176" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="52d3-c364-eab1-a55d" name="Posessed Brother" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
           <profiles/>

@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="069c-d8c7-0743-2666" name="High Elf Fleets" book="Grimdark Future - High Elf Fleets v1.2" revision="7" battleScribeVersion="2.00" authorName="humakt666, Matthew Caron" authorContact="matt@mattcaron.net" authorUrl="https://www.mattcaron.net" gameSystemId="d755-5d69-2721-c11b" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<?xml version="1.0" encoding="UTF-8"?><catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" battleScribeVersion="2.01" id="069c-d8c7-0743-2666" name="High Elf Fleets" book="Grimdark Future - High Elf Fleets v1.2" revision="7" authorName="humakt666, Matthew Caron" authorContact="matt@mattcaron.net" authorUrl="https://www.mattcaron.net" gameSystemId="d755-5d69-2721-c11b" gameSystemRevision="2">
+<categoryEntries/>
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -7,7 +7,10 @@
   <profileTypes/>
   <forceEntries/>
   <selectionEntries>
-    <selectionEntry id="badb-afce-6c80-187a" name="Elven King [1]" hidden="false" collective="false" categoryEntryId="fd3a-2c8a-2e7d-9b0e" type="model">
+    <selectionEntry id="badb-afce-6c80-187a" name="Elven King [1]" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="badb-afce-6c80-187a-fd3a-2c8a-2e7d-9b0e" targetId="fd3a-2c8a-2e7d-9b0e" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="8d5d-9c7e-54b5-4208" name="Elven King" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
           <profiles/>
@@ -165,7 +168,10 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="50.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="babf-ed1d-ec48-c571" name="High Seer [1]" hidden="false" collective="false" categoryEntryId="fd3a-2c8a-2e7d-9b0e" type="model">
+    <selectionEntry id="babf-ed1d-ec48-c571" name="High Seer [1]" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="babf-ed1d-ec48-c571-fd3a-2c8a-2e7d-9b0e" targetId="fd3a-2c8a-2e7d-9b0e" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="e99b-000e-f2ca-6b68" name="High Seer" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
           <profiles/>
@@ -284,7 +290,10 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="70.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2e9c-98b9-9ee3-cb80" name="Seer Council [3]" hidden="false" collective="false" categoryEntryId="fd3a-2c8a-2e7d-9b0e" type="unit">
+    <selectionEntry id="2e9c-98b9-9ee3-cb80" name="Seer Council [3]" hidden="false" collective="false" type="unit">
+<categoryLinks>
+<categoryLink id="2e9c-98b9-9ee3-cb80-fd3a-2c8a-2e7d-9b0e" targetId="fd3a-2c8a-2e7d-9b0e" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="76b4-ea22-1d8a-580a" name="Seer Council" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
           <profiles/>
@@ -396,7 +405,10 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="160.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8e66-59e0-fcf4-a69d" name="Avatar of Flames [1]" hidden="false" collective="false" categoryEntryId="fd3a-2c8a-2e7d-9b0e" type="model">
+    <selectionEntry id="8e66-59e0-fcf4-a69d" name="Avatar of Flames [1]" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="8e66-59e0-fcf4-a69d-fd3a-2c8a-2e7d-9b0e" targetId="fd3a-2c8a-2e7d-9b0e" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="9c26-18e0-6029-da34" name="Avatar of Flames" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
           <profiles/>
@@ -467,7 +479,10 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="205.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="981e-677b-71fc-4002" name="Defenders Squad [10]" hidden="false" collective="false" categoryEntryId="151d-502b-1a39-0176" type="unit">
+    <selectionEntry id="981e-677b-71fc-4002" name="Defenders Squad [10]" hidden="false" collective="false" type="unit">
+<categoryLinks>
+<categoryLink id="981e-677b-71fc-4002-151d-502b-1a39-0176" targetId="151d-502b-1a39-0176" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="6579-f6c1-6630-e4d2" name="Defender" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
           <profiles/>
@@ -517,7 +532,10 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="230.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c128-a515-ed55-246c" name="Storm Squad [10]" hidden="false" collective="false" categoryEntryId="151d-502b-1a39-0176" type="upgrade">
+    <selectionEntry id="c128-a515-ed55-246c" name="Storm Squad [10]" hidden="false" collective="false" type="upgrade">
+<categoryLinks>
+<categoryLink id="c128-a515-ed55-246c-151d-502b-1a39-0176" targetId="151d-502b-1a39-0176" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="31c1-a0f8-ebe9-10a9" name="Storm" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
           <profiles/>
@@ -625,7 +643,10 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="200.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9c3e-e9be-525c-6b37" name="Avengers Squad [5]" hidden="false" collective="false" categoryEntryId="151d-502b-1a39-0176" type="upgrade">
+    <selectionEntry id="9c3e-e9be-525c-6b37" name="Avengers Squad [5]" hidden="false" collective="false" type="upgrade">
+<categoryLinks>
+<categoryLink id="9c3e-e9be-525c-6b37-151d-502b-1a39-0176" targetId="151d-502b-1a39-0176" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="dfff-e31b-71d0-51ac" name="Avenger" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
           <profiles/>
@@ -701,7 +722,10 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="135.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2773-9427-5f1b-4430" name="Ranger Squad [5]" hidden="false" collective="false" categoryEntryId="151d-502b-1a39-0176" type="upgrade">
+    <selectionEntry id="2773-9427-5f1b-4430" name="Ranger Squad [5]" hidden="false" collective="false" type="upgrade">
+<categoryLinks>
+<categoryLink id="2773-9427-5f1b-4430-151d-502b-1a39-0176" targetId="151d-502b-1a39-0176" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="3a06-2a56-0b0c-e85d" name="Ranger" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
           <profiles/>
@@ -762,7 +786,10 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="270.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3b28-4f1c-e872-58d3" name="Banshee Squad [5]" hidden="false" collective="false" categoryEntryId="151d-502b-1a39-0176" type="upgrade">
+    <selectionEntry id="3b28-4f1c-e872-58d3" name="Banshee Squad [5]" hidden="false" collective="false" type="upgrade">
+<categoryLinks>
+<categoryLink id="3b28-4f1c-e872-58d3-151d-502b-1a39-0176" targetId="151d-502b-1a39-0176" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="0b93-8ea4-4258-6bfd" name="Banshee" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
           <profiles/>
@@ -890,7 +917,10 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="130.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a296-3706-7a4b-36fe" name="Scorpion Squad [5]" hidden="false" collective="false" categoryEntryId="151d-502b-1a39-0176" type="upgrade">
+    <selectionEntry id="a296-3706-7a4b-36fe" name="Scorpion Squad [5]" hidden="false" collective="false" type="upgrade">
+<categoryLinks>
+<categoryLink id="a296-3706-7a4b-36fe-151d-502b-1a39-0176" targetId="151d-502b-1a39-0176" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="3eec-7ea8-204f-fddc" name="Scorpion" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
           <profiles/>
@@ -1051,7 +1081,10 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="170.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5cdc-75aa-e02e-cedb" name="Hawk Squad [5]" hidden="false" collective="false" categoryEntryId="151d-502b-1a39-0176" type="upgrade">
+    <selectionEntry id="5cdc-75aa-e02e-cedb" name="Hawk Squad [5]" hidden="false" collective="false" type="upgrade">
+<categoryLinks>
+<categoryLink id="5cdc-75aa-e02e-cedb-151d-502b-1a39-0176" targetId="151d-502b-1a39-0176" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="fdde-af8e-470a-6371" name="Hawk" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
           <profiles/>
@@ -1146,7 +1179,10 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="180.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8e9d-383e-4ed0-6b4f" name="Spider Squad [5]" hidden="false" collective="false" categoryEntryId="151d-502b-1a39-0176" type="unit">
+    <selectionEntry id="8e9d-383e-4ed0-6b4f" name="Spider Squad [5]" hidden="false" collective="false" type="unit">
+<categoryLinks>
+<categoryLink id="8e9d-383e-4ed0-6b4f-151d-502b-1a39-0176" targetId="151d-502b-1a39-0176" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="34e9-b8b9-3f56-759e" name="Spider" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
           <profiles/>
@@ -1241,7 +1277,10 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="185.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6fde-39f6-cb4d-a9b9" name="Dragon Squad [5]" hidden="false" collective="false" categoryEntryId="151d-502b-1a39-0176" type="upgrade">
+    <selectionEntry id="6fde-39f6-cb4d-a9b9" name="Dragon Squad [5]" hidden="false" collective="false" type="upgrade">
+<categoryLinks>
+<categoryLink id="6fde-39f6-cb4d-a9b9-151d-502b-1a39-0176" targetId="151d-502b-1a39-0176" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="2db0-35df-84c2-82e1" name="Dragon" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
           <profiles/>
@@ -1317,7 +1356,10 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="200.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3141-be13-821e-7a39" name="Reaper Squad [5]" hidden="false" collective="false" categoryEntryId="151d-502b-1a39-0176" type="upgrade">
+    <selectionEntry id="3141-be13-821e-7a39" name="Reaper Squad [5]" hidden="false" collective="false" type="upgrade">
+<categoryLinks>
+<categoryLink id="3141-be13-821e-7a39-151d-502b-1a39-0176" targetId="151d-502b-1a39-0176" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="b239-7500-444b-46b2" name="Reaper" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
           <profiles/>
@@ -1414,7 +1456,10 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="215.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="fdcc-df34-ca5f-5e49" name="Wraith Suit Squad [5]" hidden="false" collective="false" categoryEntryId="151d-502b-1a39-0176" type="upgrade">
+    <selectionEntry id="fdcc-df34-ca5f-5e49" name="Wraith Suit Squad [5]" hidden="false" collective="false" type="upgrade">
+<categoryLinks>
+<categoryLink id="fdcc-df34-ca5f-5e49-151d-502b-1a39-0176" targetId="151d-502b-1a39-0176" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="f9a7-2851-9318-6f56" name="Wraith Suit" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
           <profiles/>
@@ -1492,7 +1537,10 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="180.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9a84-36c2-3361-4064" name="Jetbike Squad [3]" hidden="false" collective="false" categoryEntryId="151d-502b-1a39-0176" type="upgrade">
+    <selectionEntry id="9a84-36c2-3361-4064" name="Jetbike Squad [3]" hidden="false" collective="false" type="upgrade">
+<categoryLinks>
+<categoryLink id="9a84-36c2-3361-4064-151d-502b-1a39-0176" targetId="151d-502b-1a39-0176" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="7035-8aca-a5bb-d2a4" name="Jetbike" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
           <profiles/>
@@ -1574,7 +1622,10 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="90.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5802-604b-953c-9c29" name="Jetspear Squad [3]" hidden="false" collective="false" categoryEntryId="151d-502b-1a39-0176" type="upgrade">
+    <selectionEntry id="5802-604b-953c-9c29" name="Jetspear Squad [3]" hidden="false" collective="false" type="upgrade">
+<categoryLinks>
+<categoryLink id="5802-604b-953c-9c29-151d-502b-1a39-0176" targetId="151d-502b-1a39-0176" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="ec0f-e4c1-5576-02da" name="Jetspear" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
           <profiles/>
@@ -1666,7 +1717,10 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="120.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="50c5-7ea8-8b87-73fc" name="Anti-Gravity APC [1]" hidden="false" collective="false" categoryEntryId="2f40-c39a-80bf-b422" type="upgrade">
+    <selectionEntry id="50c5-7ea8-8b87-73fc" name="Anti-Gravity APC [1]" hidden="false" collective="false" type="upgrade">
+<categoryLinks>
+<categoryLink id="50c5-7ea8-8b87-73fc-2f40-c39a-80bf-b422" targetId="2f40-c39a-80bf-b422" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="3012-dd41-4a59-d544" name="Anti-Gravity APC" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
           <profiles/>
@@ -1807,7 +1861,10 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="210.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="df01-1141-769c-d911" name="Anti-Gravity Tank [1]" hidden="false" collective="false" categoryEntryId="2f40-c39a-80bf-b422" type="upgrade">
+    <selectionEntry id="df01-1141-769c-d911" name="Anti-Gravity Tank [1]" hidden="false" collective="false" type="upgrade">
+<categoryLinks>
+<categoryLink id="df01-1141-769c-d911-2f40-c39a-80bf-b422" targetId="2f40-c39a-80bf-b422" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="67ab-c2c3-91b0-d3ea" name="Anti-Gravity Tank" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
           <profiles/>
@@ -1943,7 +2000,10 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="185.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2f64-5ef0-fdf8-598c" name="Heavy Jetbike [1]" hidden="false" collective="false" categoryEntryId="2f40-c39a-80bf-b422" type="upgrade">
+    <selectionEntry id="2f64-5ef0-fdf8-598c" name="Heavy Jetbike [1]" hidden="false" collective="false" type="upgrade">
+<categoryLinks>
+<categoryLink id="2f64-5ef0-fdf8-598c-2f40-c39a-80bf-b422" targetId="2f40-c39a-80bf-b422" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="c980-939d-f44e-bf6f" name="Heavy Jetbike" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
           <profiles/>
@@ -2079,7 +2139,10 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="110.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c54c-224c-ea9c-0d4e" name="Combat Walker [1]" hidden="false" collective="false" categoryEntryId="2f40-c39a-80bf-b422" type="upgrade">
+    <selectionEntry id="c54c-224c-ea9c-0d4e" name="Combat Walker [1]" hidden="false" collective="false" type="upgrade">
+<categoryLinks>
+<categoryLink id="c54c-224c-ea9c-0d4e-2f40-c39a-80bf-b422" targetId="2f40-c39a-80bf-b422" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="1081-fb35-1bf1-0931" name="Combat Walker" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
           <profiles/>
@@ -2192,7 +2255,10 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="155.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="236b-1925-f8ee-30a8" name="Wraith Walker [1]" hidden="false" collective="false" categoryEntryId="2f40-c39a-80bf-b422" type="unit">
+    <selectionEntry id="236b-1925-f8ee-30a8" name="Wraith Walker [1]" hidden="false" collective="false" type="unit">
+<categoryLinks>
+<categoryLink id="236b-1925-f8ee-30a8-2f40-c39a-80bf-b422" targetId="2f40-c39a-80bf-b422" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="7245-4f5a-b648-8419" name="Wraith Walker" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
           <profiles/>
@@ -2297,7 +2363,10 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="140.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ff5b-8fc8-e9b1-86aa" name="Support Artillery [1]" hidden="false" collective="false" categoryEntryId="2f40-c39a-80bf-b422" type="upgrade">
+    <selectionEntry id="ff5b-8fc8-e9b1-86aa" name="Support Artillery [1]" hidden="false" collective="false" type="upgrade">
+<categoryLinks>
+<categoryLink id="ff5b-8fc8-e9b1-86aa-2f40-c39a-80bf-b422" targetId="2f40-c39a-80bf-b422" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="83fb-28bb-268d-0e5d" name="Support Artillery" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
           <profiles/>
@@ -2385,7 +2454,10 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="115.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4f1d-6d9e-843d-31c7" name="Wraith Plane [1]" hidden="false" collective="false" categoryEntryId="2f40-c39a-80bf-b422" type="upgrade">
+    <selectionEntry id="4f1d-6d9e-843d-31c7" name="Wraith Plane [1]" hidden="false" collective="false" type="upgrade">
+<categoryLinks>
+<categoryLink id="4f1d-6d9e-843d-31c7-2f40-c39a-80bf-b422" targetId="2f40-c39a-80bf-b422" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="1ff1-c545-54a3-1e38" name="Wraith Plane" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
           <profiles/>
@@ -2446,7 +2518,10 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="110.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9597-b2ab-c6e8-ddde" name="Hunter Plane [1]" hidden="false" collective="false" categoryEntryId="2f40-c39a-80bf-b422" type="upgrade">
+    <selectionEntry id="9597-b2ab-c6e8-ddde" name="Hunter Plane [1]" hidden="false" collective="false" type="upgrade">
+<categoryLinks>
+<categoryLink id="9597-b2ab-c6e8-ddde-2f40-c39a-80bf-b422" targetId="2f40-c39a-80bf-b422" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="7c1a-a121-20c8-ba2f" name="Hunter Plane" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
           <profiles/>
@@ -2544,7 +2619,10 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="225.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="47b2-a5c6-4ce7-c6b6" name="Wraith Titan [1]" hidden="false" collective="false" categoryEntryId="2f40-c39a-80bf-b422" type="upgrade">
+    <selectionEntry id="47b2-a5c6-4ce7-c6b6" name="Wraith Titan [1]" hidden="false" collective="false" type="upgrade">
+<categoryLinks>
+<categoryLink id="47b2-a5c6-4ce7-c6b6-2f40-c39a-80bf-b422" targetId="2f40-c39a-80bf-b422" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="18ac-4154-1852-44d0" name="Wraith Titan" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
           <profiles/>
@@ -6703,7 +6781,7 @@
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>This model moves 12&quot; when using Advance and 24&quot; when using Rush/Charge</description>
+      <description>This model moves 12" when using Advance and 24" when using Rush/Charge</description>
     </rule>
     <rule id="33ed-7eda-0178-a466" name="Council" hidden="false">
       <profiles/>

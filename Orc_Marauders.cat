@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5f8d-c465-95f1-50e1" name="Orc Marauders" book="Grimdark Future - Orc Marauders v1.4" revision="8" battleScribeVersion="2.00" authorName="Robert S. Roosa, Matthew Caron" authorContact="matt@mattcaron.net" authorUrl="http://www.thegametable.altervista.org/" gameSystemId="d755-5d69-2721-c11b" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<?xml version="1.0" encoding="UTF-8"?><catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" battleScribeVersion="2.01" id="5f8d-c465-95f1-50e1" name="Orc Marauders" book="Grimdark Future - Orc Marauders v1.4" revision="8" authorName="Robert S. Roosa, Matthew Caron" authorContact="matt@mattcaron.net" authorUrl="http://www.thegametable.altervista.org/" gameSystemId="d755-5d69-2721-c11b" gameSystemRevision="2">
+<categoryEntries/>
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -7,7 +7,10 @@
   <profileTypes/>
   <forceEntries/>
   <selectionEntries>
-    <selectionEntry id="7e81-0b45-2534-4d8d" name="Warlord [1]" hidden="false" collective="false" categoryEntryId="fd3a-2c8a-2e7d-9b0e" type="model">
+    <selectionEntry id="7e81-0b45-2534-4d8d" name="Warlord [1]" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="7e81-0b45-2534-4d8d-fd3a-2c8a-2e7d-9b0e" targetId="fd3a-2c8a-2e7d-9b0e" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="acea-3cdc-3240-433c" name="Warlord" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
           <profiles/>
@@ -208,7 +211,10 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="70.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a4d7-d1d0-745e-34e1" name="Doctor [1]" hidden="false" collective="false" categoryEntryId="fd3a-2c8a-2e7d-9b0e" type="model">
+    <selectionEntry id="a4d7-d1d0-745e-34e1" name="Doctor [1]" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="a4d7-d1d0-745e-34e1-fd3a-2c8a-2e7d-9b0e" targetId="fd3a-2c8a-2e7d-9b0e" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="aecd-ae2b-4013-8d43" name="Doctor" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
           <profiles/>
@@ -323,7 +329,10 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="90.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1c92-457b-6c6c-8a35" name="Mechanic [1]" hidden="false" collective="false" categoryEntryId="fd3a-2c8a-2e7d-9b0e" type="model">
+    <selectionEntry id="1c92-457b-6c6c-8a35" name="Mechanic [1]" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="1c92-457b-6c6c-8a35-fd3a-2c8a-2e7d-9b0e" targetId="fd3a-2c8a-2e7d-9b0e" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="d516-2288-87fc-7c6b" name="Mechanic" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
           <profiles/>
@@ -524,7 +533,10 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="40.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1868-1e7b-e42a-a7f6" name="Shaman [1]" hidden="false" collective="false" categoryEntryId="fd3a-2c8a-2e7d-9b0e" type="model">
+    <selectionEntry id="1868-1e7b-e42a-a7f6" name="Shaman [1]" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="1868-1e7b-e42a-a7f6-fd3a-2c8a-2e7d-9b0e" targetId="fd3a-2c8a-2e7d-9b0e" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="08dd-e0b2-7fbd-1974" name="Shaman" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
           <profiles/>
@@ -592,7 +604,10 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="50.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1810-5b35-4357-af08" name="Goblin Herd [10]" hidden="false" collective="false" categoryEntryId="151d-502b-1a39-0176" type="unit">
+    <selectionEntry id="1810-5b35-4357-af08" name="Goblin Herd [10]" hidden="false" collective="false" type="unit">
+<categoryLinks>
+<categoryLink id="1810-5b35-4357-af08-151d-502b-1a39-0176" targetId="151d-502b-1a39-0176" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="f8d6-4491-f1ce-741b" name="Goblin Herd" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
           <profiles/>
@@ -642,7 +657,10 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="60.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9250-b0d6-cca3-3480" name="Orcs [10]" hidden="false" collective="false" categoryEntryId="151d-502b-1a39-0176" type="unit">
+    <selectionEntry id="9250-b0d6-cca3-3480" name="Orcs [10]" hidden="false" collective="false" type="unit">
+<categoryLinks>
+<categoryLink id="9250-b0d6-cca3-3480-151d-502b-1a39-0176" targetId="151d-502b-1a39-0176" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="276c-8546-e549-12ad" name="Orcs" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
           <profiles/>
@@ -928,7 +946,10 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="145.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e23b-0ad8-b377-698d" name="Jetpack Orcs [5]" hidden="false" collective="false" categoryEntryId="151d-502b-1a39-0176" type="unit">
+    <selectionEntry id="e23b-0ad8-b377-698d" name="Jetpack Orcs [5]" hidden="false" collective="false" type="unit">
+<categoryLinks>
+<categoryLink id="e23b-0ad8-b377-698d-151d-502b-1a39-0176" targetId="151d-502b-1a39-0176" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="897a-74f6-b584-2c39" name="Jetpack Orc" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
           <profiles/>
@@ -1069,7 +1090,10 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="105.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="491a-43e1-529b-9043" name="Orc Pirates [5]" hidden="false" collective="false" categoryEntryId="151d-502b-1a39-0176" type="unit">
+    <selectionEntry id="491a-43e1-529b-9043" name="Orc Pirates [5]" hidden="false" collective="false" type="unit">
+<categoryLinks>
+<categoryLink id="491a-43e1-529b-9043-151d-502b-1a39-0176" targetId="151d-502b-1a39-0176" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="d4b2-5519-3f7e-b246" name="Orc Pirate" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
           <profiles/>
@@ -1134,7 +1158,10 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="250.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5e02-8248-e707-d181" name="Commando Orcs [5]" hidden="false" collective="false" categoryEntryId="151d-502b-1a39-0176" type="unit">
+    <selectionEntry id="5e02-8248-e707-d181" name="Commando Orcs [5]" hidden="false" collective="false" type="unit">
+<categoryLinks>
+<categoryLink id="5e02-8248-e707-d181-151d-502b-1a39-0176" targetId="151d-502b-1a39-0176" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="0e63-9499-4271-4451" name="Commando Orc" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
           <profiles/>
@@ -1302,7 +1329,10 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="100.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d5d0-8534-bc66-333c" name="Specialist Orcs [5]" hidden="false" collective="false" categoryEntryId="151d-502b-1a39-0176" type="unit">
+    <selectionEntry id="d5d0-8534-bc66-333c" name="Specialist Orcs [5]" hidden="false" collective="false" type="unit">
+<categoryLinks>
+<categoryLink id="d5d0-8534-bc66-333c-151d-502b-1a39-0176" targetId="151d-502b-1a39-0176" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="1c81-fd5f-b599-48fd" name="Specialist Orc" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
           <profiles/>
@@ -1516,7 +1546,10 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="125.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c10f-081d-63ba-f5b6" name="Boss Mob [5]" hidden="false" collective="false" categoryEntryId="151d-502b-1a39-0176" type="unit">
+    <selectionEntry id="c10f-081d-63ba-f5b6" name="Boss Mob [5]" hidden="false" collective="false" type="unit">
+<categoryLinks>
+<categoryLink id="c10f-081d-63ba-f5b6-151d-502b-1a39-0176" targetId="151d-502b-1a39-0176" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="f317-a998-4ed7-3539" name="Boss" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
           <profiles/>
@@ -1665,7 +1698,10 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="170.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="dc59-b175-b3f0-858c" name="Orc Bikers [3]" hidden="false" collective="false" categoryEntryId="151d-502b-1a39-0176" type="unit">
+    <selectionEntry id="dc59-b175-b3f0-858c" name="Orc Bikers [3]" hidden="false" collective="false" type="unit">
+<categoryLinks>
+<categoryLink id="dc59-b175-b3f0-858c-151d-502b-1a39-0176" targetId="151d-502b-1a39-0176" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="784b-915a-bdee-71da" name="Orc Biker" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
           <profiles/>
@@ -1763,7 +1799,10 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="110.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b97f-2c7e-8201-348c" name="Orc Helicopter [1]" hidden="false" collective="false" categoryEntryId="151d-502b-1a39-0176" type="model">
+    <selectionEntry id="b97f-2c7e-8201-348c" name="Orc Helicopter [1]" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="b97f-2c7e-8201-348c-151d-502b-1a39-0176" targetId="151d-502b-1a39-0176" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="ef30-a991-297b-bdab" name="Orc Helicopter" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
           <profiles/>
@@ -1886,7 +1925,10 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="50.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1183-8de8-469f-ca9c" name="Boss Bikers [3]" hidden="false" collective="false" categoryEntryId="151d-502b-1a39-0176" type="unit">
+    <selectionEntry id="1183-8de8-469f-ca9c" name="Boss Bikers [3]" hidden="false" collective="false" type="unit">
+<categoryLinks>
+<categoryLink id="1183-8de8-469f-ca9c-151d-502b-1a39-0176" targetId="151d-502b-1a39-0176" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="d628-05d8-3ee5-cb83" name="Boss Biker" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
           <profiles/>
@@ -1990,7 +2032,10 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="170.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="cb3b-aab6-26c6-b392" name="Power Armor Orcs [3]" hidden="false" collective="false" categoryEntryId="151d-502b-1a39-0176" type="unit">
+    <selectionEntry id="cb3b-aab6-26c6-b392" name="Power Armor Orcs [3]" hidden="false" collective="false" type="unit">
+<categoryLinks>
+<categoryLink id="cb3b-aab6-26c6-b392-151d-502b-1a39-0176" targetId="151d-502b-1a39-0176" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="1a74-9697-e4bb-9315" name="Power Armor Orc" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
           <profiles/>
@@ -2147,7 +2192,10 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="245.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f971-2c00-1abc-0a47" name="Truck [1]" hidden="false" collective="false" categoryEntryId="2f40-c39a-80bf-b422" type="model">
+    <selectionEntry id="f971-2c00-1abc-0a47" name="Truck [1]" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="f971-2c00-1abc-0a47-2f40-c39a-80bf-b422" targetId="2f40-c39a-80bf-b422" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="0ca5-e362-69f7-8823" name="Truck [1]" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
           <profiles/>
@@ -2255,7 +2303,10 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="80.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ba3d-5535-cf4d-f50b" name="Looted Tank [1]" hidden="false" collective="false" categoryEntryId="2f40-c39a-80bf-b422" type="model">
+    <selectionEntry id="ba3d-5535-cf4d-f50b" name="Looted Tank [1]" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="ba3d-5535-cf4d-f50b-2f40-c39a-80bf-b422" targetId="2f40-c39a-80bf-b422" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="20e8-ffee-5953-e4a9" name="Looted Tank" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
           <profiles/>
@@ -2346,7 +2397,10 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="90.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="bd71-3341-54a6-0e12" name="Goblin Walker [1]" hidden="false" collective="false" categoryEntryId="2f40-c39a-80bf-b422" type="model">
+    <selectionEntry id="bd71-3341-54a6-0e12" name="Goblin Walker [1]" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="bd71-3341-54a6-0e12-2f40-c39a-80bf-b422" targetId="2f40-c39a-80bf-b422" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="1760-2363-053b-f93d" name="Goblin Walker" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
           <profiles/>
@@ -2444,7 +2498,10 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="75.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="33cb-6db4-7323-4eff" name="Orc Walker [1]" hidden="false" collective="false" categoryEntryId="2f40-c39a-80bf-b422" type="model">
+    <selectionEntry id="33cb-6db4-7323-4eff" name="Orc Walker [1]" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="33cb-6db4-7323-4eff-2f40-c39a-80bf-b422" targetId="2f40-c39a-80bf-b422" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="ad27-8604-cde9-4050" name="Orc Walker" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
           <profiles/>
@@ -2548,7 +2605,10 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="195.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="05f8-aaf9-2517-3f03" name="Battle Truck [1]" hidden="false" collective="false" categoryEntryId="2f40-c39a-80bf-b422" type="model">
+    <selectionEntry id="05f8-aaf9-2517-3f03" name="Battle Truck [1]" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="05f8-aaf9-2517-3f03-2f40-c39a-80bf-b422" targetId="2f40-c39a-80bf-b422" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="8297-315a-843c-3cb3" name="Battle Truck [1]" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
           <profiles/>
@@ -2645,7 +2705,10 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="130.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9cd5-705e-e790-223c" name="Cunning Titan [1]" hidden="false" collective="false" categoryEntryId="2f40-c39a-80bf-b422" type="model">
+    <selectionEntry id="9cd5-705e-e790-223c" name="Cunning Titan [1]" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="9cd5-705e-e790-223c-2f40-c39a-80bf-b422" targetId="2f40-c39a-80bf-b422" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="fa71-2596-cf09-abcf" name="Cunning Titan [1]" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
           <profiles/>
@@ -2765,7 +2828,10 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="510.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1801-cfef-32ce-a3e5" name="Attack Buggy [1]" hidden="false" collective="false" categoryEntryId="2f40-c39a-80bf-b422" type="model">
+    <selectionEntry id="1801-cfef-32ce-a3e5" name="Attack Buggy [1]" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="1801-cfef-32ce-a3e5-2f40-c39a-80bf-b422" targetId="2f40-c39a-80bf-b422" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="aaa7-b877-c1ad-3b07" name="Attack Buggy [1]" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
           <profiles/>
@@ -2867,7 +2933,10 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="60.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3508-3691-629e-977a" name="Goblin Artillery [1]" hidden="false" collective="false" categoryEntryId="2f40-c39a-80bf-b422" type="unit">
+    <selectionEntry id="3508-3691-629e-977a" name="Goblin Artillery [1]" hidden="false" collective="false" type="unit">
+<categoryLinks>
+<categoryLink id="3508-3691-629e-977a-2f40-c39a-80bf-b422" targetId="2f40-c39a-80bf-b422" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="827f-f20e-3271-1fec" name="Goblin Artillery [1]" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
           <profiles/>
@@ -2961,7 +3030,10 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="75.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7da9-5587-a217-9a92" name="Blaster Plane [1]" hidden="false" collective="false" categoryEntryId="2f40-c39a-80bf-b422" type="model">
+    <selectionEntry id="7da9-5587-a217-9a92" name="Blaster Plane [1]" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="7da9-5587-a217-9a92-2f40-c39a-80bf-b422" targetId="2f40-c39a-80bf-b422" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="23ec-93dd-cf4c-5254" name="Blaster Plane" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
           <profiles/>
@@ -3073,7 +3145,10 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="95.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2919-e45e-a1bb-f4bf" name="Flame Bomber [1]" hidden="false" collective="false" categoryEntryId="2f40-c39a-80bf-b422" type="model">
+    <selectionEntry id="2919-e45e-a1bb-f4bf" name="Flame Bomber [1]" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="2919-e45e-a1bb-f4bf-2f40-c39a-80bf-b422" targetId="2f40-c39a-80bf-b422" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="6ca6-3666-7dc7-165c" name="Flame Bomber [1]" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
           <profiles/>
@@ -3172,7 +3247,10 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="115.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="81e0-deb1-0124-fcc9" name="Blitz Bomber [1]" hidden="false" collective="false" categoryEntryId="2f40-c39a-80bf-b422" type="model">
+    <selectionEntry id="81e0-deb1-0124-fcc9" name="Blitz Bomber [1]" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="81e0-deb1-0124-fcc9-2f40-c39a-80bf-b422" targetId="2f40-c39a-80bf-b422" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="8890-0ad6-537a-8634" name="Blitz Bomber" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
           <profiles/>
@@ -3264,7 +3342,10 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="125.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ffd8-f74d-83f0-96ce" name="Attack Plane [1]" hidden="false" collective="false" categoryEntryId="2f40-c39a-80bf-b422" type="model">
+    <selectionEntry id="ffd8-f74d-83f0-96ce" name="Attack Plane [1]" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="ffd8-f74d-83f0-96ce-2f40-c39a-80bf-b422" targetId="2f40-c39a-80bf-b422" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="a970-1b5d-256b-516e" name="Attack Plane" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
           <profiles/>
@@ -3343,7 +3424,10 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="135.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ed83-40b1-e881-d58b" name="Brutal Titan [1]" hidden="false" collective="false" categoryEntryId="2f40-c39a-80bf-b422" type="model">
+    <selectionEntry id="ed83-40b1-e881-d58b" name="Brutal Titan [1]" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="ed83-40b1-e881-d58b-2f40-c39a-80bf-b422" targetId="2f40-c39a-80bf-b422" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="6b95-4379-bfca-de08" name="Brutal Titan [1]" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
           <profiles/>
@@ -3467,7 +3551,10 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="585.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9872-b572-9bc6-376a" name="Stomping Titan [1]" hidden="false" collective="false" categoryEntryId="2f40-c39a-80bf-b422" type="model">
+    <selectionEntry id="9872-b572-9bc6-376a" name="Stomping Titan [1]" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="9872-b572-9bc6-376a-2f40-c39a-80bf-b422" targetId="2f40-c39a-80bf-b422" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="3504-2288-e396-b977" name="Stomping Titan [1]" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
           <profiles/>
@@ -7805,14 +7892,14 @@
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Once per turn, if this unit is inside or within 2&quot; of a Vehicle, it may try to repair it. Roll one die, on a 4+ the vehicle heals one wound.</description>
+      <description>Once per turn, if this unit is inside or within 2" of a Vehicle, it may try to repair it. Roll one die, on a 4+ the vehicle heals one wound.</description>
     </rule>
     <rule id="6357-304e-1a7a-72c3" name="WAR!" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>When the hero is activated, nominate 3 friendly Infantry units within 12&quot;. The nominated units may move +3&quot; on Advance actions and +6&quot; on Rush/Charge actions until the end of the round. </description>
+      <description>When the hero is activated, nominate 3 friendly Infantry units within 12". The nominated units may move +3" on Advance actions and +6" on Rush/Charge actions until the end of the round. </description>
     </rule>
   </sharedRules>
   <sharedProfiles>
@@ -7990,7 +8077,7 @@
       <infoLinks/>
       <modifiers/>
       <characteristics>
-        <characteristic name="Special Rules" characteristicTypeId="189e-687a-bec2-51ad" value="User gains Fast, Stealth, and Linked-Mini-MGs. Can&apos;t be taken with Power Armor."/>
+        <characteristic name="Special Rules" characteristicTypeId="189e-687a-bec2-51ad" value="User gains Fast, Stealth, and Linked-Mini-MGs. Can't be taken with Power Armor."/>
       </characteristics>
     </profile>
     <profile id="77c0-dac0-237e-81c8" name="Heavy Armor" hidden="false" profileTypeId="a964-43c6-d8f5-e47f" profileTypeName="Equipment">

@@ -1,5 +1,41 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="d755-5d69-2721-c11b" name="Grimdark Future" book="Grimdark Future v1.5" revision="6" battleScribeVersion="2.00" authorName="Matthew Caron" authorContact="matt@mattcaron.net" authorUrl="https://www.mattcaron.net" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<?xml version="1.0" encoding="UTF-8"?><gameSystem xmlns="http://www.battlescribe.net/schema/gameSystemSchema" battleScribeVersion="2.01" id="d755-5d69-2721-c11b" name="Grimdark Future" book="Grimdark Future v1.5" revision="6" authorName="Matthew Caron" authorContact="matt@mattcaron.net" authorUrl="https://www.mattcaron.net">
+<categoryEntries>
+<categoryEntry id="959e-93a2-469d-3731" name="Detachment Options" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          
+          
+        </categoryEntry>
+<categoryEntry id="fd3a-2c8a-2e7d-9b0e" name="Heroes" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          
+          
+        </categoryEntry>
+<categoryEntry id="2f40-c39a-80bf-b422" name="Vehicles and Monsters" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          
+          
+        </categoryEntry>
+<categoryEntry id="151d-502b-1a39-0176" name="Infantry" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          
+          
+        </categoryEntry>
+<categoryEntry id="4096-dbee-06d4-5512" name="Titans" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          
+          
+        </categoryEntry>
+</categoryEntries>
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -35,13 +71,8 @@
   </profileTypes>
   <forceEntries>
     <forceEntry id="e1b6-6db4-e6e8-6188" name="Army" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryEntries>
-        <categoryEntry id="959e-93a2-469d-3731" name="Detachment Options" hidden="false">
+<categoryLinks>
+<categoryLink id="e1b6-6db4-e6e8-6188-959e-93a2-469d-3731" targetId="959e-93a2-469d-3731" name="Detachment Options" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -49,8 +80,8 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f4d2-2ccc-2817-8120" type="max"/>
           </constraints>
-        </categoryEntry>
-        <categoryEntry id="fd3a-2c8a-2e7d-9b0e" name="Heroes" hidden="false">
+        </categoryLink>
+<categoryLink id="e1b6-6db4-e6e8-6188-fd3a-2c8a-2e7d-9b0e" targetId="fd3a-2c8a-2e7d-9b0e" name="Heroes" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -95,8 +126,8 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2146-cc4a-ab0a-257e" type="min"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8049-5e06-d2de-2fdb" type="max"/>
           </constraints>
-        </categoryEntry>
-        <categoryEntry id="2f40-c39a-80bf-b422" name="Vehicles and Monsters" hidden="false">
+        </categoryLink>
+<categoryLink id="e1b6-6db4-e6e8-6188-2f40-c39a-80bf-b422" targetId="2f40-c39a-80bf-b422" name="Vehicles and Monsters" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -176,15 +207,15 @@
             <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6c95-4881-828e-d221" type="min"/>
             <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="738f-8c1a-a935-d84f" type="max"/>
           </constraints>
-        </categoryEntry>
-        <categoryEntry id="151d-502b-1a39-0176" name="Infantry" hidden="false">
+        </categoryLink>
+<categoryLink id="e1b6-6db4-e6e8-6188-151d-502b-1a39-0176" targetId="151d-502b-1a39-0176" name="Infantry" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
-        </categoryEntry>
-        <categoryEntry id="4096-dbee-06d4-5512" name="Titans" hidden="false">
+        </categoryLink>
+<categoryLink id="e1b6-6db4-e6e8-6188-4096-dbee-06d4-5512" targetId="4096-dbee-06d4-5512" name="Titans" hidden="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -215,8 +246,14 @@
             <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="839e-7305-569d-1167" type="min"/>
             <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2a16-bacb-e477-45bf" type="max"/>
           </constraints>
-        </categoryEntry>
-      </categoryEntries>
+        </categoryLink>
+</categoryLinks>
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      
       <forceEntries/>
     </forceEntry>
   </forceEntries>

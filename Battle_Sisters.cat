@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0e41-91f5-a214-dfba" name="Battle Sisters" book="Grimdark Future – Battle Sisters v1.0" revision="2" battleScribeVersion="2.00" authorName="Matthew Caron" authorContact="matt@mattcaron.net" authorUrl="https://www.mattcaron.net" gameSystemId="d755-5d69-2721-c11b" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<?xml version="1.0" encoding="UTF-8"?><catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" battleScribeVersion="2.01" id="0e41-91f5-a214-dfba" name="Battle Sisters" book="Grimdark Future – Battle Sisters v1.0" revision="2" authorName="Matthew Caron" authorContact="matt@mattcaron.net" authorUrl="https://www.mattcaron.net" gameSystemId="d755-5d69-2721-c11b" gameSystemRevision="2">
+<categoryEntries/>
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -7,7 +7,10 @@
   <profileTypes/>
   <forceEntries/>
   <selectionEntries>
-    <selectionEntry id="594c-b7bc-1de4-8ecb" name="High Sister [1]" hidden="false" collective="false" categoryEntryId="fd3a-2c8a-2e7d-9b0e" type="model">
+    <selectionEntry id="594c-b7bc-1de4-8ecb" name="High Sister [1]" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="594c-b7bc-1de4-8ecb-fd3a-2c8a-2e7d-9b0e" targetId="fd3a-2c8a-2e7d-9b0e" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="508d-9731-a0aa-3991" name="High Sister" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
           <profiles/>
@@ -110,7 +113,10 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="45.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9b30-a0b7-7b89-6103" name="Priest [1]" hidden="false" collective="false" categoryEntryId="fd3a-2c8a-2e7d-9b0e" type="model">
+    <selectionEntry id="9b30-a0b7-7b89-6103" name="Priest [1]" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="9b30-a0b7-7b89-6103-fd3a-2c8a-2e7d-9b0e" targetId="fd3a-2c8a-2e7d-9b0e" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="2785-7861-0b41-57da" name="Priest" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
           <profiles/>
@@ -213,7 +219,10 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="25.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f142-ea3c-6fcd-8e44" name="Battle Sisters [5]" hidden="false" collective="false" categoryEntryId="151d-502b-1a39-0176" type="unit">
+    <selectionEntry id="f142-ea3c-6fcd-8e44" name="Battle Sisters [5]" hidden="false" collective="false" type="unit">
+<categoryLinks>
+<categoryLink id="f142-ea3c-6fcd-8e44-151d-502b-1a39-0176" targetId="151d-502b-1a39-0176" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="5647-1d41-68a4-d0d0" name="Battle Sister" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
           <profiles/>
@@ -333,7 +342,10 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="80.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0900-f7f5-b1ae-cffd" name="Scout Sisters [5]" hidden="false" collective="false" categoryEntryId="151d-502b-1a39-0176" type="unit">
+    <selectionEntry id="0900-f7f5-b1ae-cffd" name="Scout Sisters [5]" hidden="false" collective="false" type="unit">
+<categoryLinks>
+<categoryLink id="0900-f7f5-b1ae-cffd-151d-502b-1a39-0176" targetId="151d-502b-1a39-0176" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="6a06-3f54-9032-09b5" name="Scout Sister" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
           <profiles/>
@@ -445,7 +457,10 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="95.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="238e-86d4-5633-4acc" name="Support Sisters [5]" hidden="false" collective="false" categoryEntryId="151d-502b-1a39-0176" type="unit">
+    <selectionEntry id="238e-86d4-5633-4acc" name="Support Sisters [5]" hidden="false" collective="false" type="unit">
+<categoryLinks>
+<categoryLink id="238e-86d4-5633-4acc-151d-502b-1a39-0176" targetId="151d-502b-1a39-0176" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="7957-7955-3d75-a854" name="Support Sister" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
           <profiles/>
@@ -514,7 +529,10 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="185.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6f18-b30b-ae0f-b590" name="Fanatic Sisters [5]" hidden="false" collective="false" categoryEntryId="151d-502b-1a39-0176" type="unit">
+    <selectionEntry id="6f18-b30b-ae0f-b590" name="Fanatic Sisters [5]" hidden="false" collective="false" type="unit">
+<categoryLinks>
+<categoryLink id="6f18-b30b-ae0f-b590-151d-502b-1a39-0176" targetId="151d-502b-1a39-0176" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="d762-8639-34cf-dc2d" name="Fanatic Sister" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
           <profiles/>
@@ -602,7 +620,10 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="130.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7b38-ba05-b63c-c2b9" name="Assault Sisters [5]" hidden="false" collective="false" categoryEntryId="151d-502b-1a39-0176" type="unit">
+    <selectionEntry id="7b38-ba05-b63c-c2b9" name="Assault Sisters [5]" hidden="false" collective="false" type="unit">
+<categoryLinks>
+<categoryLink id="7b38-ba05-b63c-c2b9-151d-502b-1a39-0176" targetId="151d-502b-1a39-0176" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="c92e-6273-a1b0-8f20" name="Assault Sister" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
           <profiles/>
@@ -705,7 +726,10 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="140.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="aa39-b8df-4d07-c7b1" name="APC [1]" hidden="false" collective="false" categoryEntryId="2f40-c39a-80bf-b422" type="model">
+    <selectionEntry id="aa39-b8df-4d07-c7b1" name="APC [1]" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="aa39-b8df-4d07-c7b1-2f40-c39a-80bf-b422" targetId="2f40-c39a-80bf-b422" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="3956-336e-b9b0-8ec8" name="APC" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
           <profiles/>
@@ -784,7 +808,10 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="80.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c093-e1c3-1580-bd4f" name="Infernal APC [1]" hidden="false" collective="false" categoryEntryId="2f40-c39a-80bf-b422" type="model">
+    <selectionEntry id="c093-e1c3-1580-bd4f" name="Infernal APC [1]" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="c093-e1c3-1580-bd4f-2f40-c39a-80bf-b422" targetId="2f40-c39a-80bf-b422" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="9588-6fef-a160-9709" name="Infernal APC [1]" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
           <profiles/>
@@ -885,7 +912,10 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="100.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d5e5-b09a-d3ca-1df3" name="Organ Tank [1]" hidden="false" collective="false" categoryEntryId="2f40-c39a-80bf-b422" type="model">
+    <selectionEntry id="d5e5-b09a-d3ca-1df3" name="Organ Tank [1]" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="d5e5-b09a-d3ca-1df3-2f40-c39a-80bf-b422" targetId="2f40-c39a-80bf-b422" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="c0c9-b745-b12f-ffcb" name="Organ Tank" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
           <profiles/>
@@ -958,7 +988,10 @@
         <cost name="Points" costTypeId="567f-6468-66c6-2ea2" value="240.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2ba6-80c1-fdfb-ed19" name="Sister Walker [1]" hidden="false" collective="false" categoryEntryId="2f40-c39a-80bf-b422" type="model">
+    <selectionEntry id="2ba6-80c1-fdfb-ed19" name="Sister Walker [1]" hidden="false" collective="false" type="model">
+<categoryLinks>
+<categoryLink id="2ba6-80c1-fdfb-ed19-2f40-c39a-80bf-b422" targetId="2f40-c39a-80bf-b422" primary="true"/>
+</categoryLinks>
       <profiles>
         <profile id="22e7-b03b-e735-498d" name="Sister Walker" hidden="false" profileTypeId="a8fa-e9ce-c38a-c73e" profileTypeName="Unit">
           <profiles/>
